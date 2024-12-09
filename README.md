@@ -13,6 +13,6 @@ Here contradictions are defined as two directly opposing statements for a common
 - ConceptNet
 
 - Negative BioKGs:
-    PPI prediction
-    GDA prediction
-    disease prediction
+    PPI prediction;
+    GDA prediction;
+    disease prediction;
