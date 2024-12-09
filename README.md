@@ -8,12 +8,15 @@ Here contradictions are defined as two directly opposing statements for a common
 
 ## Datasets
 
+### Commonsense KGs
 - wikidata [1] + wikinegata [2]:
 
 - ConceptNet [3]:
 #negations: 6.2 millions
 #subjects: 8k everyday concepts
 
+
+### Biomedical KGs
 - Negative BioKGs [4]:
 
     PPI prediction;
