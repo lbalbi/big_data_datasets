@@ -8,11 +8,18 @@ Here contradictions are defined as two directly opposing statements for a common
 
 ## Datasets
 
-- wikidata + wikinegata
+- wikidata [1] + wikinegata [2]
 
-- ConceptNet
+- ConceptNet [3]
 
-- Negative BioKGs:
+- Negative BioKGs [4]:
+
     PPI prediction;
     GDA prediction;
     disease prediction;
+
+## References
+[1]
+[2]
+[3]
+[4]
