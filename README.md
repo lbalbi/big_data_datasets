@@ -1,14 +1,23 @@
 # Knowledge Graphs with Contradictions
 
-Collection of relevant datasets on public knowledge graphs with contradicting information.
+Collection of relevant datasets for building knowledge graphs (KGs) with contradicting information.
 Here contradictions are defined as two directly opposing statements for a common entity, e.g.:
-- Entity a InstanceOf Class A, Entity b InstanceOf Class B,  < Entity a, has_child, Entity b >,  < Entity a, has_parent, Entity b > ;
-- Entity a InstanceOf Class A, Entity b InstanceOf Class B, Entity c InstanceOf Class C,  < Entity a, has_child, Entity b >,  < Entity c, has_child, Entity b > , Class A IsDisjointWith Class B ;
+- a) Entity a InstanceOf Class A, Entity b InstanceOf Class B,  < Entity a, has_child, Entity b >,  < Entity a, has_parent, Entity b > ;
+- b) Entity a InstanceOf Class A, Entity b InstanceOf Class B, Entity c InstanceOf Class C,  < Entity a, has_child, Entity b >,  < Entity c, has_child, Entity b > , Class A IsDisjointWith Class B ;
+
+These contradictions can be directly ( a) ) or indirectly logically detectable ( b) ).
+
+## Section 1 - Tasks
+The PhD project sees the development of an approach able to detect contradicting statements within a KG to then produce conflict-aware KG representations for use in downstream tasks.
+One of the major difficulties of evaluating a graph-based model on the task of contradiction detection over knowledge graphs is the near inexistence of benchmark datasets with contradictions.
+Therefore, a first step to allow evaluation over this task is the construction of datasets for KGs with contradictions.
+As such, in "Section 2 - Datasets", I present several public datasets and propose the combination of those derived from the same data sources to generate logical contradictions.
+The end goal of this process would be to enrich public KGs with the contradictions generated.
 
 
-## Datasets
+## Section 2 - Datasets
 
-### Commonsense KGs
+### 2.1 - Commonsense KGs
 - wikidata [1] + wikinegata [2]:
 
 - ConceptNet [3] + Uncommonsense [4]: non-structured knowledge graphs on commonsense
@@ -16,7 +25,9 @@ Here contradictions are defined as two directly opposing statements for a common
 #subjects: 8k everyday concepts
 
 
-### Biomedical KGs
+
+### 2.2 - Biomedical KGs
+
 - Negative BioKGs [5]:
 
     PPI prediction;
