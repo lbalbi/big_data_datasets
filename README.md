@@ -47,6 +47,8 @@ The end goal of this process would be to enrich public KGs with the contradictio
 
 ### Limitations and Biases
 Collaborative KGs - Data is entered and maintained by editors who decide on the rules of content creation and management. Automated bots/web-scraping methods also enter data.
+ negative statements make up only 3% of examples in the ConceptNet knowledge graph
+
 
 ## References
 [1] Vrandečić, Denny, and Markus Krötzsch. "Wikidata: a free collaborative knowledgebase." Communications of the ACM 57.10 (2014): 78-85.
