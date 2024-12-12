@@ -54,6 +54,7 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
   
 
 
+   
 ### 2.2 - Biomedical KGs
 
 ### - Negative BioKGs from TrueWalks [7]:
@@ -64,7 +65,7 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
 ### - TDC's PPI dataset [8]:
 
 
-
+   
 ### Limitations and Biases
 Collaborative KGs - Data is entered and maintained by editors who decide on the rules of content creation and management. Automated bots/web-scraping methods also enter data.
  negative statements make up only 3% of examples in the ConceptNet knowledge graph
