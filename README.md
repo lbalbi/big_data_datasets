@@ -32,16 +32,19 @@ I present a total of 10 datasets with either opposing or directly negated statem
 
 - ConceptNet [3]
 
+
   
-- ConceptNet + Uncommonsense [4]: non-structured knowledge graphs.
+- ConceptNet + Uncommonsense [4]
 
   Uncommonsense covers 8,000 entities and 6.2 millions of negative statements.
 
 
-- NegatER [5] non-structured knowledge graph
+- NegatER [5]
 
 
-- ATOMIC [6] non-structured knowledge graph
+
+- ATOMIC [6]
+
   The dataset was created by the University of Washington using crowd sourced data.
   
 
