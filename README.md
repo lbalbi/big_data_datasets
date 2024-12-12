@@ -17,6 +17,7 @@ The end goal of this process would be to enrich public KGs with the contradictio
 Negative statements can also contribute to the existence of contradictions as long as they are a negation (through logical inferrence) of any other positive statement.
 Therefore, I also include datasets with negative statements in Section 2.
 
+     
 
 ## Section 2 - Datasets
 
