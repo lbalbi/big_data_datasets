@@ -62,8 +62,8 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
   Protein-Protein Interaction (PPI) dataset;
   Gene-Disease Associations (GDA) dataset;
 
-### - TDC's PPI dataset [8]:
-
+### - KG on combining TDC's PPI dataset with Gene Ontology [8]:
+The PPI dataset contains 8,248 proteins and 51,813 positive and negative triples. When integrated with the Gene Ontology, the total number of entities is YYYY and the number of facts is XXXX.
 
    
 ### Limitations and Biases
