@@ -1,13 +1,15 @@
 # Knowledge Graphs with Contradictions
 
 Collection of relevant datasets for building knowledge graphs (KGs) with contradicting information.
+
+## Section 1 - Problem Definition
+
 Here contradictions are defined as two directly opposing statements for a common entity, e.g.:
 - a) Entity a InstanceOf Class A, Entity b InstanceOf Class B,  < Entity a, has_child, Entity b >,  < Entity a, has_parent, Entity b > ;
 - b) Entity a InstanceOf Class A, Entity b InstanceOf Class B, Entity c InstanceOf Class C,  < Entity a, has_child, Entity b >,  < Entity c, has_child, Entity b > , Class A IsDisjointWith Class B ;
 
 These contradictions can be directly ( a) ) or indirectly logically detectable ( b) ).
 
-## Section 1 - Tasks
 The PhD project sees the development of an approach able to detect contradicting statements within a KG to then produce conflict-aware KG representations for use in downstream tasks.
 One of the major difficulties of evaluating a graph-based model on the task of contradiction detection over knowledge graphs is the near inexistence of benchmark datasets with contradictions.
 Therefore, a first step to allow evaluation over this task is the construction of datasets for KGs with contradictions.
@@ -16,7 +18,6 @@ The end goal of this process would be to enrich public KGs with the contradictio
 
 Negative statements can also contribute to the existence of contradictions as long as they are a negation (through logical inferrence) of any other positive statement.
 Therefore, I also include datasets with negative statements in Section 2.
-
      
 
 ## Section 2 - Datasets
