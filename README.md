@@ -27,28 +27,28 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
 
 ### 2.1 - Commonsense KGs
 
-- wikidata [1]
+### - wikidata [1]:
   The wikidata acts as the main storage for the structured data of Wikipedia.
   The latest version (as of 11/12/2024) of the KG contains 114,682,266 entities and over 1.5B triples/ statements.
 
--  wikinegata [2]:
+### -  wikinegata [2]:
   The wikinegata was obtained from a subset of wikidata along with a set of derived "useful" negative statements. It contains 681 million negative and 100 million positive statements
 
 
-- ConceptNet [3]
+### - ConceptNet [3]:
 
 
   
-- ConceptNet + Uncommonsense [4]
+### - ConceptNet + Uncommonsense [4]:
 
   Uncommonsense covers 8,000 entities and 6.2 millions of negative statements.
 
 
-- NegatER [5]
+### - NegatER [5]:
 
 
 
-- ATOMIC [6]
+### - ATOMIC [6]:
 
   The dataset was created by the University of Washington using crowd sourced data.
   
@@ -56,12 +56,12 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
 
 ### 2.2 - Biomedical KGs
 
-- Negative BioKGs from TrueWalks [7]:
+### - Negative BioKGs from TrueWalks [7]:
 
     Protein-Protein Interaction (PPI) dataset;
     Gene-Disease Associations (GDA) dataset;
 
-- TDC's PPI dataset [8]
+### - TDC's PPI dataset [8]:
 
 
 
