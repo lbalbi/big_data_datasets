@@ -32,17 +32,20 @@ The end goal of this process would be to enrich public KGs with the contradictio
   
   Uncommonsense covers 8,000 entities and 6.2 millions of negative statements.
 
+  NegatER [5]
+
+  ATOMIC [6]
 
 
 ### 2.2 - Biomedical KGs
 
-- Negative BioKGs [5]:
+- Negative BioKGs [7]:
 
     PPI prediction;
     GDA prediction;
     disease prediction;
 
-- TDC's PPI dataset [6]
+- TDC's PPI dataset [8]
 
 
 ### Limitations and Biases
@@ -59,6 +62,10 @@ Collaborative KGs - Data is entered and maintained by editors who decide on the 
 
 [4] Hiba Arnaout, Simon Razniewski, Gerhard Weikum, Jeff Z. Pan. UnCommonSense: Informative Negative Knowledge about Everyday Concepts. In CIKM, 2022.
 
-[5] Sousa, Rita T., Sara Silva, and Catia Pesquita. "Benchmark datasets for biomedical knowledge graphs with negative statements." arXiv preprint arXiv:2307.11719 (2023).
+[5] Safavi, Tara et al. “NegatER: Unsupervised Discovery of Negatives in Commonsense Knowledge Bases.” Conference on Empirical Methods in Natural Language Processing (2020).
 
-[6] Luck, K., Kim, D., Lambourne, L. et al. A reference map of the human binary protein interactome. Nature 580, 402–408 (2020).
+[6] Jiang, Liwei, et al. "" I'm Not Mad": Commonsense Implications of Negation and Contradiction." arXiv preprint arXiv:2104.06511 (2021).
+
+[7] Sousa, Rita T., Sara Silva, and Catia Pesquita. "Benchmark datasets for biomedical knowledge graphs with negative statements." arXiv preprint arXiv:2307.11719 (2023).
+
+[8] Luck, K., Kim, D., Lambourne, L. et al. A reference map of the human binary protein interactome. Nature 580, 402–408 (2020).
