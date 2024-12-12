@@ -53,7 +53,7 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
 
 ### 2.2 - Biomedical KGs
 
-- Negative BioKGs [7]:
+- Negative BioKGs from TrueWalks [7]:
 
     PPI prediction;
     GDA prediction;
