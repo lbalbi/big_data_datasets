@@ -17,9 +17,12 @@ The end goal of this process would be to enrich public KGs with the contradictio
 Negative statements can also contribute to the existence of contradictions as long as they are a negation (through logical inferrence) of any other positive statement.
 Therefore, I also include datasets with negative statements in Section 2.
 
+
 ## Section 2 - Datasets
+
 I present a total of 10 datasets with either opposing or directly negated statements.
 The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative efforts.
+
 
 
 ### 2.1 - Commonsense KGs
@@ -55,16 +58,17 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
 
 - Negative BioKGs from TrueWalks [7]:
 
-    PPI prediction;
-    GDA prediction;
-    disease prediction;
+    Protein-Protein Interaction (PPI) dataset;
+    Gene-Disease Associations (GDA) dataset;
 
 - TDC's PPI dataset [8]
+
 
 
 ### Limitations and Biases
 Collaborative KGs - Data is entered and maintained by editors who decide on the rules of content creation and management. Automated bots/web-scraping methods also enter data.
  negative statements make up only 3% of examples in the ConceptNet knowledge graph
+
 
 
 ## References
