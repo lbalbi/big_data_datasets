@@ -58,8 +58,8 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
 
 ### - Negative BioKGs from TrueWalks [7]:
 
-    Protein-Protein Interaction (PPI) dataset;
-    Gene-Disease Associations (GDA) dataset;
+  Protein-Protein Interaction (PPI) dataset;
+  Gene-Disease Associations (GDA) dataset;
 
 ### - TDC's PPI dataset [8]:
 
