@@ -16,6 +16,7 @@ The end goal of this process would be to enrich public KGs with the contradictio
 
 
 ## Section 2 - Datasets
+I present a total of 10 datasets with either opposing or directly negated statements.
 
 ### 2.1 - Commonsense KGs
 
