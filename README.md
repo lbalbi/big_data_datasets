@@ -19,22 +19,28 @@ The end goal of this process would be to enrich public KGs with the contradictio
 
 ### 2.1 - Commonsense KGs
 
-- wikidata [1] + wikinegata [2]:
+- wikidata [1]
   The wikidata acts as the main storage for the structured data of Wikipedia.
   The latest version (as of 11/12/2024) of the KG contains 114,682,266 entities and over 1.5B triples/ statements.
-  
 
+-  wikinegata [2]:
   The wikinegata was obtained from a subset of wikidata along with a set of derived "useful" negative statements. It contains 681 million negative and 100 million positive statements
 
-- ConceptNet [3] + Uncommonsense [4]: non-structured knowledge graphs on commonsense
 
-  ConceptNet
+- ConceptNet [3]
+
   
+- ConceptNet + Uncommonsense [4]: non-structured knowledge graphs.
+
   Uncommonsense covers 8,000 entities and 6.2 millions of negative statements.
 
-  NegatER [5]
 
-  ATOMIC [6]
+- NegatER [5] non-structured knowledge graph
+
+
+- ATOMIC [6] non-structured knowledge graph
+  The dataset was created by the University of Washington using crowd sourced data.
+  
 
 
 ### 2.2 - Biomedical KGs
