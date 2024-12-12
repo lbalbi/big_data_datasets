@@ -27,8 +27,10 @@ The end goal of this process would be to enrich public KGs with the contradictio
   The wikinegata was obtained from a subset of wikidata along with a set of derived "useful" negative statements. It contains 681 million negative and 100 million positive statements
 
 - ConceptNet [3] + Uncommonsense [4]: non-structured knowledge graphs on commonsense
-#negations: 6.2 millions
-#subjects: 8k everyday concepts
+
+  ConceptNet
+  
+  Uncommonsense covers 8,000 entities and 6.2 millions of negative statements.
 
 
 
