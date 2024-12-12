@@ -21,10 +21,10 @@ The end goal of this process would be to enrich public KGs with the contradictio
 
 - wikidata [1] + wikinegata [2]:
   The wikidata acts as the main storage for the structured data of Wikipedia.
-  The latest version (as of 11/12/2024) of the KG contains 114,682,266 entities and over 1.5B triples.
+  The latest version (as of 11/12/2024) of the KG contains 114,682,266 entities and over 1.5B triples/ statements.
   
 
-  The wikinegata 
+  The wikinegata was obtained from a subset of wikidata along with a set of derived "useful" negative statements. It contains 681 million negative and 100 million positive statements
 
 - ConceptNet [3] + Uncommonsense [4]: non-structured knowledge graphs on commonsense
 #negations: 6.2 millions
