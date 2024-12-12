@@ -18,7 +18,13 @@ The end goal of this process would be to enrich public KGs with the contradictio
 ## Section 2 - Datasets
 
 ### 2.1 - Commonsense KGs
+
 - wikidata [1] + wikinegata [2]:
+  The wikidata acts as the main storage for the structured data of Wikipedia.
+  The latest version (as of 11/12/2024) of the KG contains 114,682,266 entities and over 1.5B triples.
+  
+
+  The wikinegata 
 
 - ConceptNet [3] + Uncommonsense [4]: non-structured knowledge graphs on commonsense
 #negations: 6.2 millions
@@ -36,7 +42,9 @@ The end goal of this process would be to enrich public KGs with the contradictio
 
 - TDC's PPI dataset [6]
 
-  
+
+### Limitations and Biases
+Collaborative KGs - Data is entered and maintained by editors who decide on the rules of content creation and management. Automated bots/web-scraping methods also enter data.
 
 ## References
 [1] Vrandečić, Denny, and Markus Krötzsch. "Wikidata: a free collaborative knowledgebase." Communications of the ACM 57.10 (2014): 78-85.
