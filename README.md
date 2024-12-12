@@ -19,6 +19,8 @@ Therefore, I also include datasets with negative statements in Section 2.
 
 ## Section 2 - Datasets
 I present a total of 10 datasets with either opposing or directly negated statements.
+The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative efforts.
+
 
 ### 2.1 - Commonsense KGs
 
