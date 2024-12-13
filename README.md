@@ -102,11 +102,13 @@ negative statements make up only 3% of examples in the ConceptNet knowledge grap
 This section covers biomedical datasets.
 
 
-### - TrueWalks Protein-Protein Interaction (PPI) dataset [7]:
+### - TrueWalks Protein-Protein Interaction (PPI)  [7]:
 
-### - TrueWalks Gene-Disease Associations (GDA) dataset [7]:  
 
-### - TrueWalks Patient-Disease Association (PDA) dataset [7]:  
+### - TrueWalks Gene-Disease Associations (GDA)  [7]:  
+
+
+### - TrueWalks Patient-Disease Association (PDA)  [7]:  
 
 
 
