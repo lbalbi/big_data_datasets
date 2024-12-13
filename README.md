@@ -28,7 +28,7 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
 
 
 
-| Datasets  | Type | Domain | # Entities | # Positive Triples | # Negative Triples | Download Link |
+| Dataset | Type | Domain | # Entities | # Positive Triples | # Negative Triples | Download Link |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | wikidata  | structured KG  | Commonsense | 114,682,266 |  | | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
 | wikinegata  | structured KG  | Commonsense | | 100 million | 681 million | |
