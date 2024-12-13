@@ -60,6 +60,7 @@ I present a total of 10 datasets with either opposing or directly negated statem
 | TrueWalks PDA  | structured KG  | Biomedical | | | | https://zenodo.org/records/7709195/files/disease-prediction.zip?download=1 |
 | TDC PPI  | PPI network data | Biomedical | 8,248 | 51,813 | 51,813 | see https://tdcommons.ai/multi_pred_tasks/ppi |
 <br />
+<br />
 
 ### 2.1 - Commonsense KGs
 
@@ -94,6 +95,7 @@ This section covers the datasets of publicly-available commonsense Knowledge Gra
 
 <br />
 
+<br />
    
 ### 2.2 - Biomedical KGs
 
@@ -114,13 +116,13 @@ This section covers biomedical datasets.
 ### - KG on combining TDC's PPI dataset with Gene Ontology [8]:
 The PPI dataset contains 8,248 proteins and 51,813 positive and negative triples. When integrated with the Gene Ontology, the total number of entities is YYYY and the number of facts is XXXX.
 
-
+<br />
 
 ## Section 3 - Limitations and Biases
 Collaborative KGs - Data is entered and maintained by editors who decide on the rules of content creation and management. Automated bots/web-scraping methods also enter data.
  negative statements make up only 3% of examples in the ConceptNet knowledge graph
 
-
+<br />
 
 ## References
 [1] Vrandečić, Denny, and Markus Krötzsch. "Wikidata: a free collaborative knowledgebase." Communications of the ACM 57.10 (2014): 78-85.
