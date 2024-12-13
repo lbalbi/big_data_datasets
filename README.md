@@ -102,16 +102,14 @@ negative statements make up only 3% of examples in the ConceptNet knowledge grap
 This section covers biomedical datasets.
 
 
-### - Negative BioKGs from TrueWalks [7]:
+### - TrueWalks Protein-Protein Interaction (PPI) dataset [7]:
 
-  Protein-Protein Interaction (PPI) dataset
-       - 
-  
-  Gene-Disease Associations (GDA) dataset
-       -
-  
-  Patient-Disease Association (PDA) dataset
-       -
+### - TrueWalks Gene-Disease Associations (GDA) dataset [7]:  
+
+### - TrueWalks Patient-Disease Association (PDA) dataset [7]:  
+
+
+
 
 ### - KG on combining TDC's PPI dataset with Gene Ontology [8]:
 The Protein-Protein Interaction dataset contains 8,248 proteins and 51,813 positive and negative triples pertaining to experimentally-verified interactions between proteins of the Human Interactome.
