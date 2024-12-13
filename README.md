@@ -48,7 +48,7 @@ I present a total of 10 datasets with either opposing or directly negated statem
 
 
 | Dataset | Type | Domain | Language | # Entities | # Positive Triples | # Negative Triples | Download Link |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- |------------- | ------------- | ------------- | ------------- | ------------- |
 | wikidata  | structured KG  | Commonsense | Multi-language | 114,682,266 |  | | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
 | wikinegata  | structured KG  | Commonsense | English | | 100 million | 681 million | available per demand in https://d5demos.mpi-inf.mpg.de/negation/contact.html |
 | ConceptNet  | unstructured KG  | Commonsense | English | | | | https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz |
