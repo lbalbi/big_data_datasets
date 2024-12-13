@@ -123,7 +123,7 @@ In previous experiments I have integrated the HuRI PPI data with the Gene Ontolo
 
 51,813 + 51,813 + 
 
-The Gene Ontology and annotations files can be downloaded at https://release.geneontology.org/2020-06-01/index.html and https://release.geneontology.org/2020-06-01/annotations/index.html, respectively.
+The Gene Ontology and annotations files can be downloaded at https://release.geneontology.org/2020-06-01/ontology/index.html and https://release.geneontology.org/2020-06-01/annotations/index.html, respectively.
 
 <br />
 
