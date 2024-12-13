@@ -27,6 +27,7 @@ I present a total of 10 datasets with either opposing or directly negated statem
 The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative efforts.
 
 
+
 | Datasets  | Type | Domain | # Entities | # Positive Triples | # Negative Triples | Download Link |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | wikidata  | structured KG  | Commonsense | 114,682,266 |  | | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
