@@ -53,7 +53,7 @@ I present a total of 10 datasets with either opposing or directly negated statem
 | wikinegata  | structured KG  | Commonsense | | 100 million | 681 million | |
 | ConceptNet  | unstructured KG  | Commonsense | | | | https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz |
 | Uncommonsense  | unstructured KG  | Commonsense | 8,000 | - | 13.6 million | https://uncommonsense.mpi-inf.mpg.de/download/#larger |
-| NegatER  | unstructured KG  | Commonsense | | | | |
+| NegatER  | unstructured KG  | Commonsense | | | | see https://github.com/tsafavi/NegatER/tree/master/data/conceptnet/full |
 | ATOMIC  | unstructured KG  | Commonsense | | | | see https://huggingface.co/datasets/allenai/atomic |
 | TrueWalks PPI  | structured KG  | Biomedical | | | | https://zenodo.org/records/7709195/files/ppi-prediction.zip?download=1 |
 | TrueWalks GDA  | structured KG  | Biomedical | | | | https://zenodo.org/records/7709195/files/gda-prediction.zip?download=1 |
