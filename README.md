@@ -35,10 +35,10 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
 | Uncommonsense  | unstructured KG  | Commonsense | | |
 | NegatER  | unstructured KG  | Commonsense | | |
 | ATOMIC  | unstructured KG  | Commonsense | | |
-| TrueWalks PPI  | structured KG  | Commonsense | | |
-| TrueWalks GDA  | structured KG  | Commonsense | | |
-| TrueWalks PDA  | structured KG  | Commonsense | | |
-| TDC PPI  | PPI network data | Commonsense | | |
+| TrueWalks PPI  | structured KG  | Biomedical | | |
+| TrueWalks GDA  | structured KG  | Biomedical | | |
+| TrueWalks PDA  | structured KG  | Biomedical | | |
+| TDC PPI  | PPI network data | Biomedical | | |
 
 
 ### 2.1 - Commonsense KGs
