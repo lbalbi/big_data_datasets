@@ -7,7 +7,7 @@ One of the major difficulties of evaluating a graph-based model on the task of c
 Therefore, a first step to allow evaluation over this task is the construction of datasets for KGs with contradictions.   
 
 As such, in "Section 2 - Datasets", I present several public datasets, the majority being of KGs, to potentially be used in my work.
-Some, of the same domain and data sources, may even be combined to generate logical contradictions.
+Some, of the same domain but different data sources, may even be combined to generate logical contradictions.
 The end goal of this process would be to enrich public KGs with the contradictions generated so that they can be used as benchmarks for a contradiction-aware learning task.
 
 ## Section 1 - Problem Definition
