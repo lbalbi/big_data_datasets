@@ -47,17 +47,17 @@ In cases where two datasets, one with exclusively positive statements and anothe
 I present a total of 9 datasets with either opposing or directly negated statements/triples.
 
 
-| Dataset | Type | Domain | Language | Data Type | # Entities | # Positive Triples * | # Negative Triples * | Download Link |
-| ------------- | ------------- | ------------- |------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| wikidata  | structured KG  | Commonsense | Multilingual | Mixed | 114,682,266 | 15,019,727,427 | - | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
-| wikinegata  | structured KG  | Commonsense | English | Mixed | 600,000 | 100,000,000 | 681,000,000 | available per demand in https://d5demos.mpi-inf.mpg.de/negation/contact.html |
-| ConceptNet  | unstructured KG  | Commonsense | Multilingual | Mixed | 300,000 |- | 1,600,000 | https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz |
-| Uncommonsense  | unstructured KG  | Commonsense | English | Mixed | 8,000 | - | 13,600,000 | https://uncommonsense.mpi-inf.mpg.de/download/#larger |
-| NegatER  | unstructured KG  | Commonsense | English | String and Integer | 78,334 | 102,400 | 2,400 | see https://github.com/tsafavi/NegatER/tree/master/data/conceptnet/full |
-| ATOMIC  | unstructured KG  | Commonsense | English | Mixed | 309,515 | 877,108 | - | see https://huggingface.co/datasets/allenai/atomic |
-| TrueWalks PPI  | structured KG  | Biomedical | English | Mixed | 51,358 | 8,388 | 9,603 | https://zenodo.org/records/7709195/files/ppi-prediction.zip?download=1 |
-| TrueWalks GDA  | structured KG  | Biomedical | English | Mixed | 68,895 | 14,935 | 9,298 | https://zenodo.org/records/7709195/files/gda-prediction.zip?download=1 |
-| TDC PPI  | PPI network data | Biomedical | N/A (UniProt Nomenclature) | Alphanumeric and numeric integer |8,248 | 51,813 | 51,813 | see https://tdcommons.ai/multi_pred_tasks/ppi |
+| Dataset | Type | Domain | Language | Data Type | Year of Creation | Latest Update | # Entities | # Positive Triples * | # Negative Triples * | Download Link |
+| ------------- | ------------- | ------------- |------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| wikidata  | structured KG  | Commonsense | Multilingual | Mixed | | | 114,682,266 | 15,019,727,427 | - | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
+| wikinegata  | structured KG  | Commonsense | English | Mixed | | | 600,000 | 100,000,000 | 681,000,000 | available per demand in https://d5demos.mpi-inf.mpg.de/negation/contact.html |
+| ConceptNet  | unstructured KG  | Commonsense | Multilingual | Mixed | | | 300,000 |- | 1,600,000 | https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz |
+| Uncommonsense  | unstructured KG  | Commonsense | English | Mixed | | | 8,000 | - | 13,600,000 | https://uncommonsense.mpi-inf.mpg.de/download/#larger |
+| NegatER  | unstructured KG  | Commonsense | English | String and Integer | | | 78,334 | 102,400 | 2,400 | see https://github.com/tsafavi/NegatER/tree/master/data/conceptnet/full |
+| ATOMIC  | unstructured KG  | Commonsense | English | Mixed | | | 309,515 | 877,108 | - | see https://huggingface.co/datasets/allenai/atomic |
+| TrueWalks PPI  | structured KG  | Biomedical | English | Mixed | | | 51,358 | 8,388 | 9,603 | https://zenodo.org/records/7709195/files/ppi-prediction.zip?download=1 |
+| TrueWalks GDA  | structured KG  | Biomedical | English | Mixed | | | 68,895 | 14,935 | 9,298 | https://zenodo.org/records/7709195/files/gda-prediction.zip?download=1 |
+| TDC PPI  | PPI network data | Biomedical | N/A (UniProt Nomenclature) | Alphanumeric and numeric integer | | | 8,248 | 51,813 | 51,813 | see https://tdcommons.ai/multi_pred_tasks/ppi |
 
 \* Does not include triples that pertain to links between ontology classes
 
@@ -72,7 +72,8 @@ Large datasets obtained from collaborative
 
 ### - wikidata [1]:
   The wikidata acts as the main storage for the structured data of Wikipedia.
-  Each statement is composed of a **claim**, its **property-value** pair, its **references** and possible **qualifiers** (other property-value pairs that add context)
+  Each statement is composed of a **claim**, its **property-value** pair, its **references** and possible **qualifiers** (other property-value pairs that add context).
+  Due to its crowd-sourced nature, it is known that Wikidata contains several contradicting statements that can be contextualized with qualifiers (e.g. see the examples <Jerusalem, CapitalOf, State of Palestine> and <Jerusalem, CapitalOf, Israel> with the qualifiers "statement disputed by" and "statement supported by" in https://www.wikidata.org/wiki/Q1218 ). 
   
 
 ### -  wikinegata [2]:
@@ -118,7 +119,7 @@ The GDA KG is composed of a Gene-Disease Association network with 755 genes and 
 ### - HuRI KG - on combining TDC's PPI dataset with Gene Ontology [8]:
 The Protein-Protein Interaction dataset contains 8,248 proteins and 51,813 positive triples corresponding to experimentally tested physical interactions between proteins of the Human Interactome (HuRI data).
 It also provides its own python package with an internal function for generating negative triples pertaining to experimentally-verified non-existent interactions between proteins.
-To have a balanced dataset, I intend on generating 51,813 negative triples as well.
+To have a balanced dataset, I intend on generating 51,813 negative triples as well. The original dataset contains aminoacid sequence information as string-type protein features.
 
 In previous experiments I have integrated the HuRI PPI data with the Gene Ontology (version 2020/06/01 - 44,266 active GO classes and 71,515 links) through data annotation to build a KG with a total number of 52,513 entities and 321,259 triples/statements.
 
