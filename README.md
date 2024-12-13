@@ -51,13 +51,13 @@ I present a total of 9 datasets with either opposing or directly negated stateme
 | ------------- | ------------- | ------------- |------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | wikidata  | structured KG  | Commonsense | Multilingual | Mixed (String/float/integer) | | | 114,682,266 | 15,019,727,427 | - | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
 | wikinegata  | structured KG  | Commonsense | English | Mixed (String/float/integer) | | | 600,000 | 100,000,000 | 681,000,000 | available per demand in https://d5demos.mpi-inf.mpg.de/negation/contact.html |
-| ConceptNet  | unstructured KG  | Commonsense | Multilingual | Mixed (String/float/integer) | | | 300,000 | 1,600,000 | - | https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz |
-| Uncommonsense  | unstructured KG  | Commonsense | English | Mixed (String/float/integer) | | | 8,000 | - | 13,600,000 | https://uncommonsense.mpi-inf.mpg.de/download/#larger |
-| NegatER  | unstructured KG  | Commonsense | English | String and Integer | | | 78,334 | 102,400 | 2,400 | see https://github.com/tsafavi/NegatER/tree/master/data/conceptnet/full |
-| ATOMIC  | unstructured KG  | Commonsense | English | String and Integer | | | 309,515 | 877,108 | - | see https://huggingface.co/datasets/allenai/atomic |
-| TrueWalks PPI  | structured KG  | Biomedical | English | String | | | 51,358 | 8,388 | 9,603 | https://zenodo.org/records/7709195/files/ppi-prediction.zip?download=1 |
-| TrueWalks GDA  | structured KG  | Biomedical | English | String | | | 68,895 | 14,935 | 9,298 | https://zenodo.org/records/7709195/files/gda-prediction.zip?download=1 |
-| TDC HuRI PPI  | PPI network data | Biomedical | String | Alphanumeric and numeric integer | | | 8,248 | 51,813 | 51,813 | see https://tdcommons.ai/multi_pred_tasks/ppi |
+| ConceptNet 5.X  | unstructured KG  | Commonsense | Multilingual | Mixed (String/float/integer) | 03/11/2016 | 20/05/2020 | 300,000 | 1,600,000 | - | https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz |
+| Uncommonsense  | unstructured KG  | Commonsense | English | Mixed (String/float/integer) | 2022 | 2023 | 8,000 | - | 13,600,000 | https://uncommonsense.mpi-inf.mpg.de/download/#larger |
+| NegatER  | unstructured KG  | Commonsense | English | String and Integer | 2022 | 2022 | 78,334 | 102,400 | 2,400 | see https://github.com/tsafavi/NegatER/tree/master/data/conceptnet/full |
+| ATOMIC  | unstructured KG  | Commonsense | English | String and Integer | 2019 | 2022 | 309,515 | 877,108 | - | see https://huggingface.co/datasets/allenai/atomic |
+| TrueWalks PPI  | structured KG  | Biomedical | English | String | 08/03/2023 | 08/03/2023 | 51,358 | 8,388 | 9,603 | https://zenodo.org/records/7709195/files/ppi-prediction.zip?download=1 |
+| TrueWalks GDA  | structured KG  | Biomedical | English | String | 08/03/2023 | 08/03/2023 | 68,895 | 14,935 | 9,298 | https://zenodo.org/records/7709195/files/gda-prediction.zip?download=1 |
+| TDC HuRI PPI  | PPI network data | Biomedical | N/A (STRING IDs) | String | 2020 | 2020 | 8,248 | 51,813 | 51,813 | see https://tdcommons.ai/multi_pred_tasks/ppi |
 
 \* Does not include triples that pertain to links between ontology classes
 
@@ -81,8 +81,10 @@ Large datasets obtained from collaborative
   The data
 
 
-### - ConceptNet [3]:
-Negative statements make up only 3% of examples in the ConceptNet knowledge graph
+### - ConceptNet 5.X [3]:
+The first version of the ConceptNet 5 was released in 2016. Since then it has periodically been update up to v5.8.
+
+
 
   
 ### - Uncommonsense [4]:
@@ -148,7 +150,7 @@ Collaborative KGs - The data is introduced and maintained by human collectors an
 
 [5] Safavi, Tara et al. “NegatER: Unsupervised Discovery of Negatives in Commonsense Knowledge Bases.” Conference on Empirical Methods in Natural Language Processing (2020).
 
-[6] Jiang, Liwei, et al. "" I'm Not Mad": Commonsense Implications of Negation and Contradiction." arXiv preprint arXiv:2104.06511 (2021).
+[6] Sap, Maarten, et al. "Atomic: An atlas of machine commonsense for if-then reasoning." Proceedings of the AAAI conference on artificial intelligence. Vol. 33. No. 01. 2019.
 
 [7] Sousa, Rita T., Sara Silva, and Catia Pesquita. "Benchmark datasets for biomedical knowledge graphs with negative statements." arXiv preprint arXiv:2307.11719 (2023).
 
