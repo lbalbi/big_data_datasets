@@ -59,7 +59,7 @@ I present a total of 9 datasets with either opposing or directly negated stateme
 | TrueWalks GDA  | structured KG  | Biomedical | English | Mixed | 68,895 | 14,935 | 9,298 | https://zenodo.org/records/7709195/files/gda-prediction.zip?download=1 |
 | TDC PPI  | PPI network data | Biomedical | N/A (UniProt Nomenclature) | Alphanumeric and numeric integer |8,248 | 51,813 | 51,813 | see https://tdcommons.ai/multi_pred_tasks/ppi |
 
-** Does not include triples that pertain to links between ontology classes
+* * Does not include triples that pertain to links between ontology classes
 <br />
 <br />
 
