@@ -37,9 +37,9 @@ Here contradictions are defined as two logically opposing statements for a commo
 
 These contradictions can be directly ( a) ) or indirectly logically detectable ( b) ).
 
-Negative statements can also contribute to the existence of contradictions as long as they are a negation (through logical inference) of any other positive statement.
+As seen in examples 1 to 3 of the Table below, the existence of both positive and negative statements can also result in contradictions as long as they are mutual negations (either direct or through logical inference).
 Therefore, I also include datasets with negative statements in Section 2.
-     
+
 
 ## Section 2 - Datasets
 
