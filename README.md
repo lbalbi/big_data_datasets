@@ -26,7 +26,7 @@ Here contradictions are defined as two directly opposing statements for a common
 
 | Description Logic Formulae | Examples |
 | ----------------------- | -----------------------------|
-| (a ⊂ B) ⊓ (a ⊄ B) | Pizza  subClassOf  Food          Pizza  NOT_subClassOf  Food |
+| (a ⊂ B) ⊓ (a ⊄ B) | Pizza  subClassOf  Food     Pizza  NOT_subClassOf  Food |
 | (B(a)) ⊓ (¬B(a)) |  |
 |  |  |
 |  |  |
