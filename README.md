@@ -65,6 +65,7 @@ I present a total of 10 datasets with either opposing or directly negated statem
 ### 2.1 - Commonsense KGs
 
 This section covers the datasets of publicly-available commonsense Knowledge Graphs. Wikidata, ConceptNet and ATOMIC were collected via collaborative efforts, while the remainder were obtained from statistical inference methods over these KGs.
+Large datasets obtained from collaborative 
 
 
 ### - wikidata [1]:
@@ -123,7 +124,7 @@ The Gene Ontology and annotations files can be downloaded at https://geneontolog
 
 ## Section 3 - Limitations and Biases
 
-Collaborative KGs - Data is entered and maintained by editors who decide on the rules of content creation and management. Automated bots/web-scraping methods also enter data.
+Collaborative KGs - Data is entered and maintained by editors who decide on the rules of content creation and management. Automated bots/web-scraping methods also enter data. Chance that some data may actually be contradicting because one of the two statements is incorrect.
 
 
 <br />
