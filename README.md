@@ -70,6 +70,7 @@ Large datasets obtained from collaborative
 
 ### - wikidata [1]:
   The wikidata acts as the main storage for the structured data of Wikipedia.
+  Each statement is composed of a **claim**, its **property-value** pair, its **references** and possible **qualifiers** (other property-value pairs that add context)
   
 
 ### -  wikinegata [2]:
