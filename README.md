@@ -130,7 +130,7 @@ The Gene Ontology and annotations files can be downloaded at https://geneontolog
 
 ## Section 3 - Limitations and Biases
 
-Collaborative KGs - Data is entered and maintained by editors who decide on the rules of content creation and management. Automated bots/web-scraping methods also enter data. Chance that some data may actually be contradicting because one of the two statements is incorrect.
+Collaborative KGs - The data is introduced and maintained by human collectors and editors who decide on the rules of content creation and management, which may not be the most appropriate. Some KGs are also updated through automated bots/web-scraping methods. There is therefore a possibility that some of the conflicting data may actually be due to one of the two statements being incorrect.
 
 
 <br />
