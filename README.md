@@ -28,7 +28,7 @@ Here contradictions are defined as two directly opposing statements for a common
 | ----------------------- | -----------------------------|
 | (a ⊂ B) ⊓ (a ⊄ B) | Pizza  subClassOf  Food <br /> Pizza  NOT_subClassOf  Food |
 | (B(a)) ⊓ (¬B(a)) |  Margherita hasTopping MozzarellaTopping <br /> Margherita NOT_hasIngredient Base <br /> hasBase subPropertyOf hasIngredient |
-|  |  |
+| (B(a)) ⊓ (¬C(a)) ⊓ (B ⊆ C) | Margherita nasBase PizzaBase <br /> Margherita NOT_hasIngredient Base <br /> hasBase subPropertyOf hasIngredient  |
 |  |  |
 |  |  |
 
