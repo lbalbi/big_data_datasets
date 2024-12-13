@@ -47,7 +47,7 @@ In cases where two datasets, one with exclusively positive statements and anothe
 I present a total of 9 datasets with either opposing or directly negated statements/triples.
 
 
-| Dataset | Type | Domain | Language | Data Type | # Entities | # Positive Triples | # Negative Triples | Download Link |
+| Dataset | Type | Domain | Language | Data Type | # Entities | # Positive Triples/Statements | # Negative Triples/Statements | Download Link |
 | ------------- | ------------- | ------------- |------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | wikidata  | structured KG  | Commonsense | Multi-language | Mixed | 114,682,266 |  | | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
 | wikinegata  | structured KG  | Commonsense | English | Mixed | | 100 million | 681 million | available per demand in https://d5demos.mpi-inf.mpg.de/negation/contact.html |
