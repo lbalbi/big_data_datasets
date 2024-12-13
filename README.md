@@ -74,26 +74,30 @@ Large datasets obtained from collaborative efforts often have contradictions ste
 
 
 ### - wikidata [1]:
+
   The wikidata acts as the main storage for the structured data of Wikipedia.
   Each statement is composed of a **claim**, its **property-value** pair, its **references** and possible **qualifiers** (other property-value pairs that add context).
-  Due to its crowd-sourced nature, it is known that Wikidata contains several contradicting statements that can be contextualized with qualifiers (e.g. see the examples <Jerusalem, CapitalOf, State of Palestine> and <Jerusalem, CapitalOf, Israel> with the qualifiers "statement disputed by" and "statement supported by" in https://www.wikidata.org/wiki/Q1218 ). 
+  Due to its crowd-sourced nature, it is known that Wikidata contains several contradicting statements that can be contextualized with qualifiers (e.g. see the examples <Jerusalem, CapitalOf, State of Palestine> and <Jerusalem, CapitalOf, Israel> with the qualifiers "statement disputed by" and "statement supported by" in https://www.wikidata.org/wiki/Q1218 ). The wikidata contains a total of 12,286 property types that serve as the predicate of a statement.
 
 <br />
 
 ### -  wikinegata [2]:
-  The wikinegata was obtained from a subset of wikidata along with a set of derived "useful" negative statements.
-  The data
+
+  The wikinegata was obtained from a subset of wikidata along with a set of derived "useful" negative statements. Therefore, it also covers the majority of the property types in Wikidata, although the authors have not made the exact number available. To gain access to the dataset one must contact the authors through the corresponding weblink in the datasets' table.
+  
 
 <br />
 
 ### - ConceptNet 5.X [3]:
-The Conceptnet is a KG that connects words and expressions of natural language through labeled edges to model general knowledge. It was constructed from expert-collected data, crowd-sourced data and through semi-automatic information retrieval methods. 
-The first version of the ConceptNet 5 was released in 2016. Since then it has periodically been update up to v5.8.
+
+The Conceptnet is a KG that connects words and expressions of natural language through labeled edges to model general knowledge. It was constructed from expert-collected data, crowd-sourced data and through semi-automatic information retrieval methods. It contains a total of 34 relations with canonical English names but can apply to text in any language. The first version of the ConceptNet 5 was released in 2016. Since then it has periodically been update up to v5.8.
 
 <br />
   
 ### - Uncommonsense [4]:
 
+The Uncommonsense dataset was the first large dataset built with informative negative statements about everyday concepts.
+Furthermore, it provides explanations on the provenance of negatives
 
 <br />
 
