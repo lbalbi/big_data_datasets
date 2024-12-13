@@ -33,7 +33,7 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
 | wikidata  | structured KG  | Commonsense | 114,682,266 |  | | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
 | wikinegata  | structured KG  | Commonsense | | 100 million | 681 million | |
 | ConceptNet  | unstructured KG  | Commonsense | | | | |
-| Uncommonsense  | unstructured KG  | Commonsense | 8,000 | - | 6.2 million | https://uncommonsense.mpi-inf.mpg.de/download/#larger |
+| Uncommonsense  | unstructured KG  | Commonsense | 8,000 | - | 13.6 million | https://uncommonsense.mpi-inf.mpg.de/download/#larger |
 | NegatER  | unstructured KG  | Commonsense | | | | |
 | ATOMIC  | unstructured KG  | Commonsense | | | | see https://huggingface.co/datasets/allenai/atomic |
 | TrueWalks PPI  | structured KG  | Biomedical | | | | https://zenodo.org/records/7709195/files/ppi-prediction.zip?download=1 |
