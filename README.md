@@ -54,7 +54,7 @@ I present a total of 9 datasets with either opposing or directly negated stateme
 | ConceptNet  | unstructured KG  | Commonsense | Multilingual | Mixed | 300,000 |- | 1,600,000 | https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz |
 | Uncommonsense  | unstructured KG  | Commonsense | English | Mixed | 8,000 | - | 13,600,000 | https://uncommonsense.mpi-inf.mpg.de/download/#larger |
 | NegatER  | unstructured KG  | Commonsense | English | String and Integer | 78,334 | 102,400 | 2,400 | see https://github.com/tsafavi/NegatER/tree/master/data/conceptnet/full |
-| ATOMIC  | unstructured KG  | Commonsense | English | Mixed | | | | see https://huggingface.co/datasets/allenai/atomic |
+| ATOMIC  | unstructured KG  | Commonsense | English | Mixed | 309,515 | 877,108 | - | see https://huggingface.co/datasets/allenai/atomic |
 | TrueWalks PPI  | structured KG  | Biomedical | English | Mixed | 51,358 | 8,388 | 9,603 | https://zenodo.org/records/7709195/files/ppi-prediction.zip?download=1 |
 | TrueWalks GDA  | structured KG  | Biomedical | English | Mixed | 68,895 | 14,935 | 9,298 | https://zenodo.org/records/7709195/files/gda-prediction.zip?download=1 |
 | TDC PPI  | PPI network data | Biomedical | N/A (UniProt Nomenclature) | Alphanumeric and numeric integer |8,248 | 51,813 | 51,813 | see https://tdcommons.ai/multi_pred_tasks/ppi |
