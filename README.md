@@ -75,6 +75,7 @@ Large datasets obtained from collaborative
 
 ### -  wikinegata [2]:
   The wikinegata was obtained from a subset of wikidata along with a set of derived "useful" negative statements.
+  The data
 
 
 ### - ConceptNet [3]:
