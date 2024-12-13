@@ -34,8 +34,8 @@ Here contradictions are defined as two logically opposing statements for a commo
 
 
 
-
-These contradictions can be directly ( see example on row 1 of table above ) or indirectly logically detectable ( examples on rows 2 to 5 ).
+These contradictions can be directly ( see example on row 1 of table above ) or indirectly logically detectable ( examples on rows 2 to 5 ). On the other hand, not all contradictions can be detected through logics alone.
+For example, two statements may not contradict eachother within general knowledge but may be contradicting within a specific domain. On the other hand, there are "supposed" contradictions that, when given context (be it temporal, spatial, etc.) may not be contradicting. Therefore, the task of detecting contradictions is complex.
 
 As seen in examples 1 to 3 of the Table above, the existence of both positive and negative statements can also result in contradictions as long as they are mutual negations (either direct or through logical inference).
 Therefore, I also include datasets with negative statements in Section 2.
@@ -44,7 +44,9 @@ In cases where two datasets, one with exclusively positive statements and anothe
 
 ## Section 2 - Datasets
 
-I present a total of 9 datasets with either opposing or directly negated statements/triples.
+In the present section are listed a total of 9 datasets. Some contain directly negated statements/triples. Others do not include explicit negations but are known to contain contradicting statements.
+The datasets will be used for a contradiction enrichment process where a neuro-symbolic method will detect the different types of existing contradictions, be it explicit or underlying,
+and contextualize them with domain knowledge. Then, the enriched datasets will be used for a knowledge graph representation learning (KGRL) method to generate enriched contradiction-aware entity representations (a novel "contradiction learning" task).
 
 
 | Dataset | Type | Domain | Language | Data Type | Year of Creation | Latest Update | # Entities | # Positive Triples * | # Negative Triples * | Download Link |
@@ -75,29 +77,30 @@ Large datasets obtained from collaborative efforts often have contradictions ste
   The wikidata acts as the main storage for the structured data of Wikipedia.
   Each statement is composed of a **claim**, its **property-value** pair, its **references** and possible **qualifiers** (other property-value pairs that add context).
   Due to its crowd-sourced nature, it is known that Wikidata contains several contradicting statements that can be contextualized with qualifiers (e.g. see the examples <Jerusalem, CapitalOf, State of Palestine> and <Jerusalem, CapitalOf, Israel> with the qualifiers "statement disputed by" and "statement supported by" in https://www.wikidata.org/wiki/Q1218 ). 
-  
+
+<br />
 
 ### -  wikinegata [2]:
   The wikinegata was obtained from a subset of wikidata along with a set of derived "useful" negative statements.
   The data
 
+<br />
 
 ### - ConceptNet 5.X [3]:
 The Conceptnet is a KG that connects words and expressions of natural language through labeled edges to model general knowledge. It was constructed from expert-collected data, crowd-sourced data and through semi-automatic information retrieval methods. 
 The first version of the ConceptNet 5 was released in 2016. Since then it has periodically been update up to v5.8.
 
-
-
+<br />
   
 ### - Uncommonsense [4]:
 
 
-
+<br />
 
 ### - NegatER [5]:
 
 
-
+<br />
 
 ### - ATOMIC [6]:
 
@@ -121,8 +124,9 @@ The PPI KG is composed of a PPI network with 440 proteins and its annotations to
 The GDA KG is composed of a Gene-Disease Association network with 755 genes and 162 diseases and of its annotations to the Human Phenotype Ontology (HP). The GDA network data contains 107 verified gene-disease relations and of 107 non-existent (negative) relations. By combining it with the ontology and with inferred positive (14,828 annotations) and negative statements (9,191 annotations) to it, the number of total entities is 68,895 and of 2,507,961 triples.
 The GDA network dataset does not contain entity features.
 
+<br />
 
-### - HuRI KG - on combining TDC's PPI dataset with Gene Ontology [8]:
+### - TDC HuRI KG - on combining TDC's PPI dataset with Gene Ontology [8]:
 The Protein-Protein Interaction dataset contains 8,248 proteins and 51,813 positive triples corresponding to experimentally tested physical interactions between proteins of the Human Interactome (HuRI data).
 It also provides its own python package with an internal function for generating negative triples pertaining to experimentally-verified non-existent interactions between proteins.
 To have a balanced dataset, I intend on generating 51,813 negative triples as well. The original dataset contains aminoacid sequence information as string-type protein features.
@@ -137,6 +141,8 @@ The Gene Ontology and annotations files can be downloaded at https://release.gen
 ## Section 3 - Limitations and Biases
 
 Collaborative KGs - The data is introduced and maintained by human collectors and editors who decide on the rules of content creation and management, which may not be the most appropriate. Some KGs are also updated through automated bots/web-scraping methods. There is therefore a possibility that some of the conflicting data may actually be due to one of the two statements being incorrect.
+
+The combination of two different datasets, e.g. ConcepNet and Uncommonsense or Wikidata and Wikinegata, may introduce some difficulties in data integration if the data formats are not exactly the same. For example, the wikinegata does not provide references nor qualifiers. While qualifiers are not obligatory, the Wikidata KG's axiomatic schema requires that the each statement has at least one reference. Therefore, the introduction of wikinegata data with the wikidata as is could result in an assertion violation in wikidata.
 
 
 <br />
