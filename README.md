@@ -39,14 +39,12 @@ These contradictions can be directly ( see example on row 1 of table above ) or 
 
 As seen in examples 1 to 3 of the Table above, the existence of both positive and negative statements can also result in contradictions as long as they are mutual negations (either direct or through logical inference).
 Therefore, I also include datasets with negative statements in Section 2.
-In cases where two datasets, one with exclusively positive statements and another with exclusively negative statements, contain data from the same domain, e.g. ConceptNet and Uncommonsense, it is possible to combine them into a single KG from which to derive the contradictions.
+In cases where two datasets, one with exclusively positive statements and another with exclusively negative statements for common entities, contain data from the same domain, e.g. ConceptNet and Uncommonsense, it is possible to combine them into a single KG from which to derive the contradictions.
 
 
 ## Section 2 - Datasets
 
-I present a total of 10 datasets with either opposing or directly negated statements.
-The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative efforts.
-
+I present a total of 10 datasets with either opposing or directly negated statements/triples.
 
 
 | Dataset | Type | Domain | # Entities | # Positive Triples | # Negative Triples | Download Link |
@@ -64,6 +62,9 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
 
 
 ### 2.1 - Commonsense KGs
+
+This section covers the datasets of publicly-available commonsense Knowledge Graphs. Wikidata, ConceptNet and ATOMIC were collected via collaborative efforts, while the remainder were obtained from statistical inference methods over these KGs.
+
 
 ### - wikidata [1]:
   The wikidata acts as the main storage for the structured data of Wikipedia.
@@ -92,8 +93,12 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
   
 
 
+
    
 ### 2.2 - Biomedical KGs
+
+This section covers biomedical datasets.
+
 
 ### - Negative BioKGs from TrueWalks [7]:
 
@@ -109,8 +114,9 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
 ### - KG on combining TDC's PPI dataset with Gene Ontology [8]:
 The PPI dataset contains 8,248 proteins and 51,813 positive and negative triples. When integrated with the Gene Ontology, the total number of entities is YYYY and the number of facts is XXXX.
 
-   
-### Limitations and Biases
+
+
+## Section 3 - Limitations and Biases
 Collaborative KGs - Data is entered and maintained by editors who decide on the rules of content creation and management. Automated bots/web-scraping methods also enter data.
  negative statements make up only 3% of examples in the ConceptNet knowledge graph
 
