@@ -55,7 +55,7 @@ I present a total of 10 datasets with either opposing or directly negated statem
 | Uncommonsense  | unstructured KG  | Commonsense | English | Mixed | 8,000 | - | 13.6 million | https://uncommonsense.mpi-inf.mpg.de/download/#larger |
 | NegatER  | unstructured KG  | Commonsense | English | String and Integer | | | | see https://github.com/tsafavi/NegatER/tree/master/data/conceptnet/full |
 | ATOMIC  | unstructured KG  | Commonsense | English | Mixed | | | | see https://huggingface.co/datasets/allenai/atomic |
-| TrueWalks PPI  | structured KG  | Biomedical | English | Mixed | | | https://zenodo.org/records/7709195/files/ppi-prediction.zip?download=1 |
+| TrueWalks PPI  | structured KG  | Biomedical | English | Mixed | | | | https://zenodo.org/records/7709195/files/ppi-prediction.zip?download=1 |
 | TrueWalks GDA  | structured KG  | Biomedical | English | Mixed | | | | https://zenodo.org/records/7709195/files/gda-prediction.zip?download=1 |
 | TrueWalks PDA  | structured KG  | Biomedical | English | Mixed | | | | https://zenodo.org/records/7709195/files/disease-prediction.zip?download=1 |
 | TDC PPI  | PPI network data | Biomedical | N/A (UniProt Nomenclature) | Alphanumeric and numeric integer |8,248 | 51,813 | 51,813 | see https://tdcommons.ai/multi_pred_tasks/ppi |
