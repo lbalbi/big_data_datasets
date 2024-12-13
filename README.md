@@ -104,21 +104,25 @@ This section covers biomedical datasets.
 
 ### - Negative BioKGs from TrueWalks [7]:
 
-  Protein-Protein Interaction (PPI) dataset;
+  Protein-Protein Interaction (PPI) dataset
        - 
   
-  Gene-Disease Associations (GDA) dataset;
+  Gene-Disease Associations (GDA) dataset
        -
   
-  Patient-Disease Association (PDA) dataset;
+  Patient-Disease Association (PDA) dataset
        -
 
 ### - KG on combining TDC's PPI dataset with Gene Ontology [8]:
-The PPI dataset contains 8,248 proteins and 51,813 positive and negative triples. When integrated with the Gene Ontology, the total number of entities is YYYY and the number of facts is XXXX.
+The Protein-Protein Interaction dataset contains 8,248 proteins and 51,813 positive and negative triples pertaining to experimentally-verified interactions between proteins of the Human Interactome.
+When integrated with the Gene Ontology (current version - 2024/11/03), the total number of entities is YYYY and the number of facts is XXXX.
+The Gene Ontology and annotations files can be downloaded at https://geneontology.org/docs/download-ontology/ and https://current.geneontology.org/products/pages/downloads.html, respectively.
 
 <br />
 
+
 ## Section 3 - Limitations and Biases
+
 Collaborative KGs - Data is entered and maintained by editors who decide on the rules of content creation and management. Automated bots/web-scraping methods also enter data.
 
 
