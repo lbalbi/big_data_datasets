@@ -104,7 +104,8 @@ The first version of the ConceptNet 5 was released in 2016. Since then it has pe
 
 ### - ATOMIC [6]:
 
-  The dataset was created by the University of Washington using crowd sourced data.
+The ATOMIC dataset was created by the University of Washington using crowd sourced data. 
+It contains inferential knowledge organized as "If-Then" premises with a total of nine different predicate/relation types.
   
 
 <br />
@@ -140,7 +141,7 @@ The Gene Ontology and annotations files can be downloaded at https://release.gen
 
 ## Section 3 - Limitations and Biases
 
-Collaborative KGs - The data is introduced and maintained by human collectors and editors who decide on the rules of content creation and management, which may not be the most appropriate. Some KGs are also updated through automated bots/web-scraping methods. There is therefore a possibility that some of the conflicting data may actually be due to one of the two statements being incorrect.
+In collaborative KGs the data is introduced and maintained by human collectors and editors who decide on the rules of content creation and management, which may not be the most appropriate. Some KGs are also updated through automated bots/web-scraping methods. There is therefore a possibility that some of the conflicting data may actually be due to one of the two statements being incorrect.
 
 The combination of two different datasets, e.g. ConcepNet and Uncommonsense or Wikidata and Wikinegata, may introduce some difficulties in data integration if the data formats are not exactly the same. For example, the wikinegata does not provide references nor qualifiers. While qualifiers are not obligatory, the Wikidata KG's axiomatic schema requires that the each statement has at least one reference. Therefore, the introduction of wikinegata data with the wikidata as is could result in an assertion violation in wikidata.
 
