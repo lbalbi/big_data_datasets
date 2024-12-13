@@ -51,7 +51,7 @@ I present a total of 9 datasets with either opposing or directly negated stateme
 | ------------- | ------------- | ------------- |------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | wikidata  | structured KG  | Commonsense | Multilingual | Mixed (String/float/integer) | | | 114,682,266 | 15,019,727,427 | - | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
 | wikinegata  | structured KG  | Commonsense | English | Mixed (String/float/integer) | | | 600,000 | 100,000,000 | 681,000,000 | available per demand in https://d5demos.mpi-inf.mpg.de/negation/contact.html |
-| ConceptNet  | unstructured KG  | Commonsense | Multilingual | Mixed (String/float/integer) | | | 300,000 |- | 1,600,000 | https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz |
+| ConceptNet  | unstructured KG  | Commonsense | Multilingual | Mixed (String/float/integer) | | | 300,000 | 1,600,000 | - | https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz |
 | Uncommonsense  | unstructured KG  | Commonsense | English | Mixed (String/float/integer) | | | 8,000 | - | 13,600,000 | https://uncommonsense.mpi-inf.mpg.de/download/#larger |
 | NegatER  | unstructured KG  | Commonsense | English | String and Integer | | | 78,334 | 102,400 | 2,400 | see https://github.com/tsafavi/NegatER/tree/master/data/conceptnet/full |
 | ATOMIC  | unstructured KG  | Commonsense | English | String and Integer | | | 309,515 | 877,108 | - | see https://huggingface.co/datasets/allenai/atomic |
@@ -82,15 +82,16 @@ Large datasets obtained from collaborative
 
 
 ### - ConceptNet [3]:
-negative statements make up only 3% of examples in the ConceptNet knowledge graph
+Negative statements make up only 3% of examples in the ConceptNet knowledge graph
 
   
-### - ConceptNet + Uncommonsense [4]:
+### - Uncommonsense [4]:
 
-  Uncommonsense covers 8,000 entities and 6.2 millions of negative statements.
+
 
 
 ### - NegatER [5]:
+
 
 
 
@@ -109,11 +110,12 @@ This section covers biomedical datasets.
 
 
 ### - TrueWalks Protein-Protein Interaction (PPI)  [7]:
-The PPI KG is composed of a PPI network with 440 proteins and its annotations to the Gene Ontology. The PPI network data contains 1,024 experimentally verified positive protein interactions and of 1,024 non-existent (negative) protein interactions, therefore it is a balanced dataset. By combining it with the ontology and with inferred positive (7,364 annotations) and negative statements (8,579 annotations) to it, the number of total entities is of 51,358 and 1,425,102 triples.
+The PPI KG is composed of a PPI network with 440 proteins and its annotations to the Gene Ontology. The PPI network data contains 1,024 experimentally verified positive protein interactions and of 1,024 non-existent (negative) protein interactions, therefore it is a balanced dataset. By combining it with the ontology and with inferred positive (7,364 annotations) and negative statements (8,579 annotations) to it, the number of total entities is of 51,358 and 1,425,102 triples. The PPI network dataset does not contain entity features.
 
 
 ### - TrueWalks Gene-Disease Associations (GDA)  [7]:  
 The GDA KG is composed of a Gene-Disease Association network with 755 genes and 162 diseases and of its annotations to the Human Phenotype Ontology (HP). The GDA network data contains 107 verified gene-disease relations and of 107 non-existent (negative) relations. By combining it with the ontology and with inferred positive (14,828 annotations) and negative statements (9,191 annotations) to it, the number of total entities is 68,895 and of 2,507,961 triples.
+The GDA network dataset does not contain entity features.
 
 
 ### - HuRI KG - on combining TDC's PPI dataset with Gene Ontology [8]:
