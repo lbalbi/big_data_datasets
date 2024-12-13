@@ -47,17 +47,18 @@ In cases where two datasets, one with exclusively positive statements and anothe
 I present a total of 9 datasets with either opposing or directly negated statements/triples.
 
 
-| Dataset | Type | Domain | Language | Data Type | # Entities | # Positive Triples/Statements | # Negative Triples/Statements | Download Link |
+| Dataset | Type | Domain | Language | Data Type | # Entities | # Positive Triples * | # Negative Triples * | Download Link |
 | ------------- | ------------- | ------------- |------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| wikidata  | structured KG  | Commonsense | Multilingual | Mixed | 114,682,266 |  | | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
-| wikinegata  | structured KG  | Commonsense | English | Mixed | 600,000 | 100 million | 681 million | available per demand in https://d5demos.mpi-inf.mpg.de/negation/contact.html |
-| ConceptNet  | unstructured KG  | Commonsense | Multilingual | Mixed | | | | https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz |
-| Uncommonsense  | unstructured KG  | Commonsense | English | Mixed | 8,000 | - | 13.6 million | https://uncommonsense.mpi-inf.mpg.de/download/#larger |
+| wikidata  | structured KG  | Commonsense | Multilingual | Mixed | 114,682,266 | 15,019,727,427 | - | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
+| wikinegata  | structured KG  | Commonsense | English | Mixed | 600,000 | 100,000,000 | 681,000,000 | available per demand in https://d5demos.mpi-inf.mpg.de/negation/contact.html |
+| ConceptNet  | unstructured KG  | Commonsense | Multilingual | Mixed | 300,000 |- | 1,600,000 | https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz |
+| Uncommonsense  | unstructured KG  | Commonsense | English | Mixed | 8,000 | - | 13,600,000 million | https://uncommonsense.mpi-inf.mpg.de/download/#larger |
 | NegatER  | unstructured KG  | Commonsense | English | String and Integer | | | | see https://github.com/tsafavi/NegatER/tree/master/data/conceptnet/full |
 | ATOMIC  | unstructured KG  | Commonsense | English | Mixed | | | | see https://huggingface.co/datasets/allenai/atomic |
-| TrueWalks PPI  | structured KG  | Biomedical | English | Mixed | | | | https://zenodo.org/records/7709195/files/ppi-prediction.zip?download=1 |
-| TrueWalks GDA  | structured KG  | Biomedical | English | Mixed | | | | https://zenodo.org/records/7709195/files/gda-prediction.zip?download=1 |
+| TrueWalks PPI  | structured KG  | Biomedical | English | Mixed | 51,358 | 8,388 | 9,603 | https://zenodo.org/records/7709195/files/ppi-prediction.zip?download=1 |
+| TrueWalks GDA  | structured KG  | Biomedical | English | Mixed | 68,895 | 14,935 | 9,298 | https://zenodo.org/records/7709195/files/gda-prediction.zip?download=1 |
 | TDC PPI  | PPI network data | Biomedical | N/A (UniProt Nomenclature) | Alphanumeric and numeric integer |8,248 | 51,813 | 51,813 | see https://tdcommons.ai/multi_pred_tasks/ppi |
+* Does not include triples that pertain to links between ontology classes
 <br />
 <br />
 
@@ -105,7 +106,7 @@ This section covers biomedical datasets.
 
 
 ### - TrueWalks Protein-Protein Interaction (PPI)  [7]:
-The PPI KG is composed of a PPI network with 440 proteins and its annotations to the Gene Ontology. The PPI network data contains 1024 experimentally verified positive protein interactions and of 1024 non-existent (negative) protein interactions, therefore it is a balanced dataset. By combining it with the ontology and with inferred positive (7364 annotations) and negative statements (8579 annotations) to it, the number of total entities is of 51,358 and 1425102 triples.
+The PPI KG is composed of a PPI network with 440 proteins and its annotations to the Gene Ontology. The PPI network data contains 1,024 experimentally verified positive protein interactions and of 1,024 non-existent (negative) protein interactions, therefore it is a balanced dataset. By combining it with the ontology and with inferred positive (7,364 annotations) and negative statements (8,579 annotations) to it, the number of total entities is of 51,358 and 1,425,102 triples.
 
 
 ### - TrueWalks Gene-Disease Associations (GDA)  [7]:  
