@@ -27,6 +27,19 @@ I present a total of 10 datasets with either opposing or directly negated statem
 The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative efforts.
 
 
+| Datasets  | Type | Domain | # Entities | # Triples | Source Link |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| wikidata  | structured KG  | Commonsense | | |
+| wikinegata  | structured KG  | Commonsense | | |
+| ConceptNet  | unstructured KG  | Commonsense | | |
+| Uncommonsense  | unstructured KG  | Commonsense | | |
+| NegatER  | unstructured KG  | Commonsense | | |
+| ATOMIC  | unstructured KG  | Commonsense | | |
+| TrueWalks PPI  | structured KG  | Commonsense | | |
+| TrueWalks GDA  | structured KG  | Commonsense | | |
+| TrueWalks PDA  | structured KG  | Commonsense | | |
+| TDC PPI  | PPI network data | Commonsense | | |
+
 
 ### 2.1 - Commonsense KGs
 
