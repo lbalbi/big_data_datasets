@@ -102,6 +102,7 @@ The Uncommonsense dataset was the first large dataset built with informative neg
 
 ### - NegatER [5]:
 
+The NegatER dataset was obtained from inference of negative statements from the ConceptNet KG and contains a total of 34 relations. The authors provide data partitions of 100,000/2,400/2,400 train/validation/test triples (positives and negatives combined) for reproductibility of their experiments over the data.
 
 <br />
 
