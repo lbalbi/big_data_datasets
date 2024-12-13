@@ -105,11 +105,11 @@ This section covers biomedical datasets.
 
 
 ### - TrueWalks Protein-Protein Interaction (PPI)  [7]:
-The PPI KG is composed of a PPI network with 440 proteins and its annotations to the Gene Ontology. The PPI network data contains 1024 experimentally verified positive protein interactions and of 1024 non-existent (negative) protein interactions, therefore it is a balanced dataset. By combining it with the ontology and with inferred negative statements to it, the number of total entities is of 51,358 and 1425102 triples.
+The PPI KG is composed of a PPI network with 440 proteins and its annotations to the Gene Ontology. The PPI network data contains 1024 experimentally verified positive protein interactions and of 1024 non-existent (negative) protein interactions, therefore it is a balanced dataset. By combining it with the ontology and with inferred positive (7364 annotations) and negative statements (8579 annotations) to it, the number of total entities is of 51,358 and 1425102 triples.
 
 
 ### - TrueWalks Gene-Disease Associations (GDA)  [7]:  
-The GDA KG is composed of a Gene-Disease Association network with 755 genes and 162 diseases and of its annotations to the Human Phenotype Ontology (HP). The GDA network data contains 107 verified gene-disease relations and of 107 non-existent (negative) relations. By combining it with the ontology and with inferred negative statements to it, the number of total entities is 68,895 and of 2,507,961 triples.
+The GDA KG is composed of a Gene-Disease Association network with 755 genes and 162 diseases and of its annotations to the Human Phenotype Ontology (HP). The GDA network data contains 107 verified gene-disease relations and of 107 non-existent (negative) relations. By combining it with the ontology and with inferred positive (14,828 annotations) and negative statements (9,191 annotations) to it, the number of total entities is 68,895 and of 2,507,961 triples.
 
 
 ### - HuRI KG - on combining TDC's PPI dataset with Gene Ontology [8]:
