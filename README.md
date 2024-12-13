@@ -115,8 +115,14 @@ This section covers biomedical datasets.
 
 
 ### - HuRI KG - on combining TDC's PPI dataset with Gene Ontology [8]:
-The Protein-Protein Interaction dataset contains 8,248 proteins and 51,813 positive and negative triples pertaining to experimentally-verified interactions between proteins of the Human Interactome.
-When integrated with the Gene Ontology (current version - 2024/11/03 - 62,046 GO classes), the total number of entities is 70,294 and the number of facts is XXXX. 51,813 + 51,813 + 
+The Protein-Protein Interaction dataset contains 8,248 proteins and 51,813 positive triples corresponding to experimentally tested physical interactions between proteins of the Human Interactome (HuRI data).
+It also provides its own python package with an internal function for generating negative triples pertaining to experimentally-verified non-existent interactions between proteins.
+To have a balanced dataset, I intend on generating 51,813 negative triples as well.
+
+Furthermore, by integrating the HuRI PPi data with the Gene Ontology (current version - 2024/11/03 - 62,046 GO classes) through data annotation, we build a KG with a total number of entities of 70,294 and XXXX triples/statements. 
+
+51,813 + 51,813 + 
+
 The Gene Ontology and annotations files can be downloaded at https://geneontology.org/docs/download-ontology/ and https://current.geneontology.org/products/pages/downloads.html, respectively.
 
 <br />
