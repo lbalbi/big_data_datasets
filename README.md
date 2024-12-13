@@ -40,7 +40,7 @@ These contradictions can be directly ( see example on row 1 of table above ) or 
 As seen in examples 1 to 3 of the Table above, the existence of both positive and negative statements can also result in contradictions as long as they are mutual negations (either direct or through logical inference).
 Therefore, I also include datasets with negative statements in Section 2.
 In cases where two datasets, one with exclusively positive statements and another with exclusively negative statements for common entities, contain data from the same domain, e.g. ConceptNet and Uncommonsense, it is possible to combine them into a single KG from which to derive the contradictions.
-
+<br />
 
 ## Section 2 - Datasets
 
@@ -59,7 +59,7 @@ I present a total of 10 datasets with either opposing or directly negated statem
 | TrueWalks GDA  | structured KG  | Biomedical | | | | https://zenodo.org/records/7709195/files/gda-prediction.zip?download=1 |
 | TrueWalks PDA  | structured KG  | Biomedical | | | | https://zenodo.org/records/7709195/files/disease-prediction.zip?download=1 |
 | TDC PPI  | PPI network data | Biomedical | 8,248 | 51,813 | 51,813 | see https://tdcommons.ai/multi_pred_tasks/ppi |
-
+<br />
 
 ### 2.1 - Commonsense KGs
 
@@ -92,7 +92,7 @@ This section covers the datasets of publicly-available commonsense Knowledge Gra
   The dataset was created by the University of Washington using crowd sourced data.
   
 
-
+<br />
 
    
 ### 2.2 - Biomedical KGs
