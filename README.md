@@ -22,15 +22,15 @@ may be between one man and several women, or vice-versa. Therefore, a more reali
 
 A major reason for the inexistence of actual contradiction learning benchmarks is the lack of consensus on what actual constitutes a contradiction within a domain knowledge graph.
 
-Here contradictions are defined as two directly opposing statements for a common entity, e.g.:
+Here contradictions are defined as two logically opposing statements for a common entity, as seen in the examples of the table below:
 
 | Description Logic Formulae | Examples |
 | ----------------------- | -----------------------------|
 | (a ⊂ B) ⊓ (a ⊄ B) | Pizza  subClassOf  Food <br /> Pizza  NOT_subClassOf  Food |
 | (B(a)) ⊓ (¬B(a)) |  Margherita hasTopping MozzarellaTopping <br /> Margherita NOT_hasIngredient Base <br /> hasBase subPropertyOf hasIngredient |
 | (B(a)) ⊓ (¬C(a)) ⊓ (B ⊆ C) | Margherita nasBase PizzaBase <br /> Margherita NOT_hasIngredient Base <br /> hasBase subPropertyOf hasIngredient  |
-|  |  |
-|  |  |
+| (B(a)) ⊓ (C(a)) ⊓ (B ⊥ C) | VegetarianPizza hasTopping onlyVegetables <br /> VegetarianPizza hasTopping Meat <br /> Meat disjoint onlyVegetables |
+| (B(a,d)) ⊓ (B(a,e)) ⊓ Cards(a,d,B) = (0,1) | Portugal hasCapital Lisbon <br /> Portugal hasCapital Funchal <br /> hasCapital maxCardinality 1 |
 
 
 
