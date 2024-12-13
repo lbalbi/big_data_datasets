@@ -108,7 +108,7 @@ The NegatER dataset was obtained from Language Model inference of negative state
 
 ### - ATOMIC [6]:
 
-The ATOMIC dataset was created by the University of Washington using 877,000 textual descriptions of common concepts obtained from crowd sourced data. 
+The ATOMIC dataset was created by the University of Washington using 877,000 textual descriptions of common concepts and events obtained from crowd sourced data. 
 It contains inferential knowledge organized as "If-Then" premises with a total of nine different predicate/relation types.
   
 
