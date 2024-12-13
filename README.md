@@ -29,16 +29,16 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
 
 | Datasets  | Type | Domain | # Entities | # Positive Triples | # Negative Triples | Download Link |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| wikidata  | structured KG  | Commonsense | 114,682,266 | 1.5B | | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
-| wikinegata  | structured KG  | Commonsense | | | | |
+| wikidata  | structured KG  | Commonsense | 114,682,266 |  | | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
+| wikinegata  | structured KG  | Commonsense | | 100 million | 681 million | |
 | ConceptNet  | unstructured KG  | Commonsense | | | | |
-| Uncommonsense  | unstructured KG  | Commonsense | | | | |
+| Uncommonsense  | unstructured KG  | Commonsense | 8,000 | - | 6.2 million | |
 | NegatER  | unstructured KG  | Commonsense | | | | |
 | ATOMIC  | unstructured KG  | Commonsense | | | | see https://huggingface.co/datasets/allenai/atomic |
 | TrueWalks PPI  | structured KG  | Biomedical | | | | https://zenodo.org/records/7709195/files/ppi-prediction.zip?download=1 |
 | TrueWalks GDA  | structured KG  | Biomedical | | | | https://zenodo.org/records/7709195/files/gda-prediction.zip?download=1 |
 | TrueWalks PDA  | structured KG  | Biomedical | | | | https://zenodo.org/records/7709195/files/disease-prediction.zip?download=1 |
-| TDC PPI  | PPI network data | Biomedical | | | | see https://tdcommons.ai/multi_pred_tasks/ppi |
+| TDC PPI  | PPI network data | Biomedical | 8,248 | 51,813 | 51,813 | see https://tdcommons.ai/multi_pred_tasks/ppi |
 
 
 ### 2.1 - Commonsense KGs
