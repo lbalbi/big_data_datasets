@@ -12,6 +12,16 @@ The end goal of this process would be to enrich public KGs with the contradictio
 
 ## Section 1 - Problem Definition
 
+It is very common for large KGs, and in particular crowd-sourced KGs, to contain contradicting information due to the merging of information from different sources or collaborators with different world-views.
+Yet, contradictions are often non-acknowledged, or simply "solved" by removal of one side.
+This is due to the "majority-view" nature of most data collection and Machine Learning strategies, that solve contradictions by retaining the most relevant/popular one, in hopes that it is the most correct.
+This perspective, however, is not necessarily the most realistic. Often, real world instances or concepts can in fact have multiple "real" facets that combined make up a complex "truth value".
+E.g., "Marriage" is a real-world concept often characterized as being between two people. While this may be the majority view, at least in western countries, there are places and cultures where polygamy is in practice and marriage 
+may be between one man and several women, or vice-versa. Therefore, a more realistic description of "Marriage" should include both properties, along with the context they are held true in.
+There should be developments in AI systems that account for this polyvocalness
+
+A major reason for the inexistence of actual contradiction learning benchmarks is the lack of consensus on what actual constitutes a contradiction within a domain knowledge graph.
+
 Here contradictions are defined as two directly opposing statements for a common entity, e.g.:
 - a) Entity a InstanceOf Class A, Entity b InstanceOf Class B,  < Entity a, has_child, Entity b >,  < Entity a, has_parent, Entity b > ;
 - b) Entity a InstanceOf Class A, Entity b InstanceOf Class B, Entity c InstanceOf Class C,  < Entity a, has_child, Entity b >,  < Entity c, has_child, Entity b > , Class A IsDisjointWith Class B ;
