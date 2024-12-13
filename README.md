@@ -50,7 +50,7 @@ I present a total of 9 datasets with either opposing or directly negated stateme
 | Dataset | Type | Domain | Language | Data Type | # Entities | # Positive Triples/Statements | # Negative Triples/Statements | Download Link |
 | ------------- | ------------- | ------------- |------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | wikidata  | structured KG  | Commonsense | Multi-language | Mixed | 114,682,266 |  | | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
-| wikinegata  | structured KG  | Commonsense | English | Mixed | | 100 million | 681 million | available per demand in https://d5demos.mpi-inf.mpg.de/negation/contact.html |
+| wikinegata  | structured KG  | Commonsense | English | Mixed | 600,000 | 100 million | 681 million | available per demand in https://d5demos.mpi-inf.mpg.de/negation/contact.html |
 | ConceptNet  | unstructured KG  | Commonsense | English | Mixed | | | | https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz |
 | Uncommonsense  | unstructured KG  | Commonsense | English | Mixed | 8,000 | - | 13.6 million | https://uncommonsense.mpi-inf.mpg.de/download/#larger |
 | NegatER  | unstructured KG  | Commonsense | English | String and Integer | | | | see https://github.com/tsafavi/NegatER/tree/master/data/conceptnet/full |
