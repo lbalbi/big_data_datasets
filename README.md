@@ -69,14 +69,14 @@ This section covers the datasets of publicly-available commonsense Knowledge Gra
 
 ### - wikidata [1]:
   The wikidata acts as the main storage for the structured data of Wikipedia.
-  The latest version (as of 11/12/2024) of the KG contains 114,682,266 entities and over 1.5B triples/ statements.
+  
 
 ### -  wikinegata [2]:
-  The wikinegata was obtained from a subset of wikidata along with a set of derived "useful" negative statements. It contains 681 million negative and 100 million positive statements
+  The wikinegata was obtained from a subset of wikidata along with a set of derived "useful" negative statements.
 
 
 ### - ConceptNet [3]:
-
+negative statements make up only 3% of examples in the ConceptNet knowledge graph
 
   
 ### - ConceptNet + Uncommonsense [4]:
@@ -120,7 +120,7 @@ The PPI dataset contains 8,248 proteins and 51,813 positive and negative triples
 
 ## Section 3 - Limitations and Biases
 Collaborative KGs - Data is entered and maintained by editors who decide on the rules of content creation and management. Automated bots/web-scraping methods also enter data.
- negative statements make up only 3% of examples in the ConceptNet knowledge graph
+
 
 <br />
 
