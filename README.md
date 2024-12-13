@@ -29,16 +29,16 @@ The datasets of wikidata, ConceptNet and ATOMIC were collected via collaborative
 
 | Datasets  | Type | Domain | # Entities | # Triples | Download Link |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| wikidata  | structured KG  | Commonsense | | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
-| wikinegata  | structured KG  | Commonsense | | |
-| ConceptNet  | unstructured KG  | Commonsense | | |
-| Uncommonsense  | unstructured KG  | Commonsense | | |
-| NegatER  | unstructured KG  | Commonsense | | |
-| ATOMIC  | unstructured KG  | Commonsense | | see https://huggingface.co/datasets/allenai/atomic |
-| TrueWalks PPI  | structured KG  | Biomedical | | https://zenodo.org/records/7709195/files/ppi-prediction.zip?download=1 |
-| TrueWalks GDA  | structured KG  | Biomedical | | https://zenodo.org/records/7709195/files/gda-prediction.zip?download=1 |
-| TrueWalks PDA  | structured KG  | Biomedical | | https://zenodo.org/records/7709195/files/disease-prediction.zip?download=1 |
-| TDC PPI  | PPI network data | Biomedical | | see https://tdcommons.ai/multi_pred_tasks/ppi |
+| wikidata  | structured KG  | Commonsense | | | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
+| wikinegata  | structured KG  | Commonsense | | | |
+| ConceptNet  | unstructured KG  | Commonsense | | | |
+| Uncommonsense  | unstructured KG  | Commonsense | | | |
+| NegatER  | unstructured KG  | Commonsense | | | |
+| ATOMIC  | unstructured KG  | Commonsense | | | see https://huggingface.co/datasets/allenai/atomic |
+| TrueWalks PPI  | structured KG  | Biomedical | | | https://zenodo.org/records/7709195/files/ppi-prediction.zip?download=1 |
+| TrueWalks GDA  | structured KG  | Biomedical | | | https://zenodo.org/records/7709195/files/gda-prediction.zip?download=1 |
+| TrueWalks PDA  | structured KG  | Biomedical | | | https://zenodo.org/records/7709195/files/disease-prediction.zip?download=1 |
+| TDC PPI  | PPI network data | Biomedical | | | see https://tdcommons.ai/multi_pred_tasks/ppi |
 
 
 ### 2.1 - Commonsense KGs
