@@ -67,7 +67,8 @@ I present a total of 9 datasets with either opposing or directly negated stateme
 ### 2.1 - Commonsense KGs
 
 This section covers the datasets of publicly-available commonsense Knowledge Graphs. Wikidata, ConceptNet and ATOMIC were collected via collaborative efforts, while the remainder were obtained from statistical inference methods over these KGs.
-Large datasets obtained from collaborative 
+
+Large datasets obtained from collaborative efforts often have contradictions stemming from opposing views, beliefs and cultural habits.
 
 
 ### - wikidata [1]:
