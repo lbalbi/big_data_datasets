@@ -82,6 +82,7 @@ Large datasets obtained from collaborative
 
 
 ### - ConceptNet 5.X [3]:
+The Conceptnet is a KG that connects words and expressions of natural language through labeled edges to model general knowledge. It was constructed from expert-collected data, crowd-sourced data and through semi-automatic information retrieval methods. 
 The first version of the ConceptNet 5 was released in 2016. Since then it has periodically been update up to v5.8.
 
 
