@@ -119,11 +119,9 @@ The Protein-Protein Interaction dataset contains 8,248 proteins and 51,813 posit
 It also provides its own python package with an internal function for generating negative triples pertaining to experimentally-verified non-existent interactions between proteins.
 To have a balanced dataset, I intend on generating 51,813 negative triples as well.
 
-In previous experiments I have integrated the HuRI PPI data with the Gene Ontology (version 2020/06/01 - 55, GO classes) through data annotation, we build a KG with a total number of entities of 70,294 and XXXX triples/statements. 
+In previous experiments I have integrated the HuRI PPI data with the Gene Ontology (version 2020/06/01 - 44,266 active GO classes and 71,515 links) through data annotation to build a KG with a total number of 52,513 entities and 321,259 triples/statements.
 
-51,813 + 51,813 + 
-
-The Gene Ontology and annotations files can be downloaded at https://release.geneontology.org/2020-06-01/ontology/index.html and https://release.geneontology.org/2020-06-01/annotations/index.html, respectively.
+The Gene Ontology and annotations files can be downloaded at https://release.geneontology.org/2020-06-01/ontology/go.owl and https://release.geneontology.org/2020-06-01/annotations/index.html, respectively.
 
 <br />
 
