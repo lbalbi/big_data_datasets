@@ -96,7 +96,7 @@ The Conceptnet is a KG that connects words and expressions of natural language t
   
 ### - Uncommonsense [4]:
 
-The Uncommonsense dataset was the first large dataset built with informative negative statements about everyday concepts through pruning and ranking of negatives by informativeness. It contains covers 19 different kinds of relations between concepts.
+The Uncommonsense dataset was the first large dataset built with informative negative statements about everyday concepts through pruning and ranking of negatives by informativeness. It covers 19 different kinds of relations/predicates between concepts.
 
 <br />
 
