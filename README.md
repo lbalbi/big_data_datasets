@@ -53,7 +53,7 @@ and contextualize them with domain knowledge. Then, the enriched datasets will b
 | ------------- | ------------- | ------------- |------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | wikidata  | structured KG  | Commonsense | Multilingual | Mixed (String/float/integer) | 29/10/2012 | 09/12/2024 | 114,682,266 | 15,019,727,427 | - | https://dumps.wikimedia.org/wikidatawiki/20241201/ |
 | wikinegata  | structured KG  | Commonsense | English | Mixed (String/float/integer) | 2021 | 2021 | 600,000 | 100,000,000 | 681,000,000 | available per demand in https://d5demos.mpi-inf.mpg.de/negation/contact.html |
-| ConceptNet 5.X  | unstructured KG  | Commonsense | Multilingual | Mixed (String/float/integer) | 03/11/2016 | 20/05/2020 | 300,000 | 1,600,000 | - | https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz |
+| ConceptNet 5.X  | unstructured KG  | Commonsense | Multilingual | Mixed (String/float/integer) | 03/11/2016 | 20/05/2020 | 8,000,000 | 34,000,000 | - | https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz |
 | Uncommonsense  | unstructured KG  | Commonsense | English | Mixed (String/float/integer) | 2022 | 2023 | 8,000 | - | 13,600,000 | https://uncommonsense.mpi-inf.mpg.de/download/#larger |
 | NegatER  | unstructured KG  | Commonsense | English | String and Integer | 2022 | 2022 | 78,334 | 102,400 | 2,400 | see https://github.com/tsafavi/NegatER/tree/master/data/conceptnet/full |
 | ATOMIC  | unstructured KG  | Commonsense | English | String and Integer | 2019 | 2022 | 309,515 | 877,108 | - | see https://huggingface.co/datasets/allenai/atomic |
