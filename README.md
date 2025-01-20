@@ -176,6 +176,7 @@ The enriched KGs will serve as different domain benchmarks for evaluating contra
 
 ![BD_pipeline](https://github.com/user-attachments/assets/0dcd04c7-a61f-44aa-9822-22c9c00e0217)
 
+<sub><sup> Fig Legend - Knowledge Graph Contradiction-aware Learning pipeline. Numbers 1 to 5 refer to order of employment solely.</sup></sub>
 
 <br />
 
