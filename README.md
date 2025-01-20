@@ -83,16 +83,16 @@ Large datasets obtained from collaborative efforts often have contradictions ste
 
 
 ### - wikidata [1]:
-<p align="justify">
-  The wikidata acts as the main storage for the structured data of Wikipedia.
-  Each statement is composed of a **claim**, its **property-value** pair, its **references** and possible **qualifiers** (other property-value pairs that add context).
-  Due to its crowd-sourced nature, it is known that Wikidata contains several contradicting statements that can be contextualized with qualifiers (e.g. see the examples <\Jerusalem, CapitalOf, State of Palestine> and <\Jerusalem, CapitalOf, Israel> with the qualifiers "statement disputed by" and "statement supported by" in https://www.wikidata.org/wiki/Q1218 ). The wikidata contains a total of 12,286 property types that serve as the predicate of a statement.
-</p>
+
+The wikidata acts as the main storage for the structured data of Wikipedia.
+Each statement is composed of a **claim**, its **property-value** pair, its **references** and possible **qualifiers** (other property-value pairs that add context).
+Due to its crowd-sourced nature, it is known that Wikidata contains several contradicting statements that can be contextualized with qualifiers (e.g. see the examples <Jerusalem, CapitalOf, State of Palestine> and <Jerusalem, CapitalOf, Israel> with the qualifiers "statement disputed by" and "statement supported by" in https://www.wikidata.org/wiki/Q1218 ). The wikidata contains a total of 12,286 property types that serve as the predicate of a statement.
+
 <br />
 
 ### -  wikinegata [2]:
 
-  The wikinegata was obtained from a subset of wikidata along with a set of derived "useful" negative statements. Therefore, it also covers the majority of the property types in Wikidata, although the authors have not made the exact number available. To gain access to the dataset one must contact the authors through the corresponding weblink in the datasets' table.
+The wikinegata was obtained from a subset of wikidata along with a set of derived "useful" negative statements. Therefore, it also covers the majority of the property types in Wikidata, although the authors have not made the exact number available. To gain access to the dataset one must contact the authors through the corresponding weblink in the datasets' table.
   
 
 <br />
@@ -154,14 +154,16 @@ The Gene Ontology and annotations files can be downloaded at https://release.gen
 
 ## Section 3 - Limitations and Biases
 
+<p align="justify">
 In collaborative KGs the data is introduced and maintained by human collectors and editors who decide on the rules of content creation and management, which may not be the most appropriate. Some KGs are also updated through automated bots/web-scraping methods. There is therefore a possibility that some of the conflicting data may actually be due to one of the two statements being incorrect.
 
 The combination of two different datasets, e.g. ConcepNet and Uncommonsense or Wikidata and Wikinegata, may introduce some difficulties in data integration if the data formats are not exactly the same. For example, the wikinegata does not provide references nor qualifiers. While qualifiers are not obligatory, the Wikidata KG's axiomatic schema requires that the each statement has at least one reference. Therefore, the introduction of wikinegata data with the wikidata as is could result in an assertion violation in wikidata.
-
+</p>
 <br />
 
 ## Section 4 - Downstream applications with datasets
 
+<p align="justify">
 The knowledge graphs that result from utilizing the datasets described in Section 2 will be rich in contradictions.
 A neuro-symbolic (NeSy) AI approach (i.e. a Language Model trained on a massive corpus of commonsense data, with in-context-learning of external domain KGs) would be able to detect said contradictions;
 furthermore, the usage of domain KGs to enhance its knowledge of within-context semantics allows the detection of contradictions of different granularity. Explicit contradictions should be detectable due to violations of the query KGs constraints. Tacit contradictions are detectable when including domain-wise constraints that a more broad KG can be missing (e.g. cardinality of 1 for a "capital_of" relation).
@@ -169,6 +171,7 @@ furthermore, the usage of domain KGs to enhance its knowledge of within-context 
 The detected contradictions should be injected, along with the context that made them detectable, in an enriched version of the query KG.
 
 The enriched KGs will serve as different domain benchmarks for evaluating contradiction learning models on downstream applications of KGRL (KG Representation Learning) on several ML tasks, e.g. Knowledge Graph Completion, Question-Answering, Link Prediction, etc.
+</p>
 
 ![BD_pipeline](https://github.com/user-attachments/assets/0dcd04c7-a61f-44aa-9822-22c9c00e0217)
 
