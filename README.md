@@ -172,6 +172,7 @@ The detected contradictions should be injected, along with the context that made
 
 The enriched KGs will serve as different domain benchmarks for evaluating contradiction learning models on downstream applications of KGRL (KG Representation Learning) on several ML tasks, e.g. Knowledge Graph Completion, Question-Answering, Link Prediction, etc.
 </p>
+<br />
 
 ![BD_pipeline](https://github.com/user-attachments/assets/0dcd04c7-a61f-44aa-9822-22c9c00e0217)
 
