@@ -12,15 +12,18 @@ Some, of the same domain but different data sources, may even be combined to gen
 The end goal of this process would be to enrich public KGs with the contradictions generated so that they can be used as benchmarks for a contradiction-aware learning task.
 </p>
 
+<br />
+
 ## Section 1 - Problem Definition
 
+<p align="justify">
 It is very common for large KGs, and in particular crowd-sourced KGs, to contain contradicting information due to the merging of information from different sources or collaborators with different world-views.
 Yet, contradictions are often non-acknowledged, or simply "solved" by removal of one side.
 This is due to the "majority-view" nature of most data collection and Machine Learning strategies, that solve contradictions by retaining the most relevant/popular one, in hopes that it is the most correct.
 This perspective, however, is not necessarily the most realistic. Often, real world instances or concepts can in fact have multiple "real" facets that combined make up a complex "truth value".
 E.g., "Marriage" is a real-world concept often characterized as being between two people. While this may be the majority view, at least in western countries, there are places and cultures where polygamy is in practice and marriage 
 may be between one man and several women, or vice-versa. Therefore, a more realistic description of "Marriage" should include both properties, along with the context in which they are held true.
-
+</p>
 
 A major reason for the inexistence of actual contradiction learning benchmarks is the lack of consensus on what actual constitutes a contradiction within a domain knowledge graph.
 
