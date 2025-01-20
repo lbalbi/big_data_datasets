@@ -48,11 +48,14 @@ In cases where two datasets, one with exclusively positive statements and anothe
 </p>
 <br />
 
+
 ## Section 2 - Datasets
 
+<p align="justify">
 In the present section are listed a total of 9 datasets. Some contain directly negated statements/triples. Others do not include explicit negations but are known to contain contradicting statements.
 The datasets will be used for a contradiction enrichment process where a neuro-symbolic method will detect the different types of existing contradictions, be it explicit or underlying,
 and contextualize them with domain knowledge. Then, the enriched datasets will be used for a knowledge graph representation learning (KGRL) method to generate enriched contradiction-aware entity representations (a novel "contradiction learning" task).
+</p>
 
 
 | Dataset | Type | Domain | Language | Data Type | Year of Creation | Latest Update | # Entities | # Positive Triples * | # Negative Triples * | Download Link |
@@ -80,11 +83,11 @@ Large datasets obtained from collaborative efforts often have contradictions ste
 
 
 ### - wikidata [1]:
-
+<p align="justify">
   The wikidata acts as the main storage for the structured data of Wikipedia.
   Each statement is composed of a **claim**, its **property-value** pair, its **references** and possible **qualifiers** (other property-value pairs that add context).
   Due to its crowd-sourced nature, it is known that Wikidata contains several contradicting statements that can be contextualized with qualifiers (e.g. see the examples <Jerusalem, CapitalOf, State of Palestine> and <Jerusalem, CapitalOf, Israel> with the qualifiers "statement disputed by" and "statement supported by" in https://www.wikidata.org/wiki/Q1218 ). The wikidata contains a total of 12,286 property types that serve as the predicate of a statement.
-
+</p>
 <br />
 
 ### -  wikinegata [2]:
