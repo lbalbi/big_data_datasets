@@ -158,7 +158,8 @@ A neuro-symbolic (NeSy) AI approach (i.e. a Language Model trained on a massive 
 furthermore, the usage of domain KGs to enhance its knowledge of within-context semantics allows the detection of contradictions of different granularity. Explicit contradictions should be detectable due to violations of the query KGs constraints. Tacit contradictions are detectable when including domain-wise constraints that a more broad KG can be missing (e.g. cardinality of 1 for a "capital_of" relation).
 
 The detected contradictions should be injected, along with the context that made them detectable, in an enriched version of the query KG.
-This enriched version will serve as a benchmark for evaluating contradiction learning models for downstream application of KGRL on several ML tasks, e.g. Knowledge Graph Completion, Question-Answering, Link Prediction, etc.
+
+The enriched KGs will serve as different domain benchmarks for evaluating contradiction learning models on downstream applications of KGRL on several ML tasks, e.g. Knowledge Graph Completion, Question-Answering, Link Prediction, etc.
 
 
 
