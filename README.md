@@ -149,6 +149,15 @@ In collaborative KGs the data is introduced and maintained by human collectors a
 
 The combination of two different datasets, e.g. ConcepNet and Uncommonsense or Wikidata and Wikinegata, may introduce some difficulties in data integration if the data formats are not exactly the same. For example, the wikinegata does not provide references nor qualifiers. While qualifiers are not obligatory, the Wikidata KG's axiomatic schema requires that the each statement has at least one reference. Therefore, the introduction of wikinegata data with the wikidata as is could result in an assertion violation in wikidata.
 
+<br />
+
+## Section 4 - Downstream applications with datasets
+
+The knowledge graphs that result from utilizing the datasets described in Section 2 will be rich in contradictions.
+A neuro-symbolic (NeSy) AI approach (i.e. a Language Model trained on a massive corpus of commonsense data, with in-context-learning of external domain KGs) would be able to detect said contradictions;
+furthermore, the usage of domain KGs to enhance its knowledge of within-context semantics allows the detection of contradictions of different granularity. 
+
+
 
 <br />
 
