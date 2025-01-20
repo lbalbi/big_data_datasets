@@ -29,7 +29,7 @@ A major reason for the inexistence of actual contradiction learning benchmarks i
 
 Here contradictions are defined as two logically opposing statements for a common entity, as seen in the examples of the table below:
 
-<div align="center">
+
 | Description Logic Formulae | Examples |
 | ----------------------- | -----------------------------|
 | (a ⊂ B) ⊓ (a ⊄ B) | Pizza  subClassOf  Food <br /> Pizza  NOT_subClassOf  Food |
@@ -37,7 +37,7 @@ Here contradictions are defined as two logically opposing statements for a commo
 | (B(a)) ⊓ (¬C(a)) ⊓ (B ⊆ C) | Margherita nasBase PizzaBase <br /> Margherita NOT_hasIngredient Base <br /> hasBase subPropertyOf hasIngredient  |
 | (B(a)) ⊓ (C(a)) ⊓ (B ⊥ C) | VegetarianPizza hasTopping onlyVegetables <br /> VegetarianPizza hasTopping Meat <br /> Meat disjoint onlyVegetables |
 | (B(a,d)) ⊓ (B(a,e)) ⊓ Cards(a,d,B) = (0,1) | Portugal hasCapital Lisbon <br /> Portugal hasCapital Funchal <br /> hasCapital maxCardinality 1 |
-</div>
+
 
 <p align="justify">
 These contradictions can be directly ( see example on row 1 of table above ) or indirectly logically detectable ( examples on rows 2 to 5 ). On the other hand, not all contradictions can be detected through logics alone.
