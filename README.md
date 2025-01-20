@@ -26,7 +26,7 @@ E.g., "Marriage" is a real-world concept often characterized as being between tw
 may be between one man and several women, or vice-versa. Therefore, a more realistic description of "Marriage" should include both properties, along with the context in which they are held true.
 </p>
 
-A major reason for the inexistence of actual contradiction learning benchmarks is the lack of consensus on the semantic value of contradiction, and in all of the types of contradictions that may be found within a knowledge graph.
+A major reason for the inexistence of actual contradiction learning benchmarks is the lack of consensus on the semantic value of a contradiction, and in all of the types of contradictions that may be found within a knowledge graph.
 Contradictions are commonly defined as two logically opposing statements for a common entity, as seen in the examples of the table below:
 
 
