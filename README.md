@@ -86,7 +86,7 @@ Large datasets obtained from collaborative efforts often have contradictions ste
 <p align="justify">
   The wikidata acts as the main storage for the structured data of Wikipedia.
   Each statement is composed of a **claim**, its **property-value** pair, its **references** and possible **qualifiers** (other property-value pairs that add context).
-  Due to its crowd-sourced nature, it is known that Wikidata contains several contradicting statements that can be contextualized with qualifiers (e.g. see the examples <Jerusalem, CapitalOf, State of Palestine> and <Jerusalem, CapitalOf, Israel> with the qualifiers "statement disputed by" and "statement supported by" in https://www.wikidata.org/wiki/Q1218 ). The wikidata contains a total of 12,286 property types that serve as the predicate of a statement.
+  Due to its crowd-sourced nature, it is known that Wikidata contains several contradicting statements that can be contextualized with qualifiers (e.g. see the examples <\Jerusalem, CapitalOf, State of Palestine> and <\Jerusalem, CapitalOf, Israel> with the qualifiers "statement disputed by" and "statement supported by" in https://www.wikidata.org/wiki/Q1218 ). The wikidata contains a total of 12,286 property types that serve as the predicate of a statement.
 </p>
 <br />
 
