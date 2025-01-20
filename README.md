@@ -159,7 +159,7 @@ furthermore, the usage of domain KGs to enhance its knowledge of within-context 
 
 The detected contradictions should be injected, along with the context that made them detectable, in an enriched version of the query KG.
 
-The enriched KGs will serve as different domain benchmarks for evaluating contradiction learning models on downstream applications of KGRL on several ML tasks, e.g. Knowledge Graph Completion, Question-Answering, Link Prediction, etc.
+The enriched KGs will serve as different domain benchmarks for evaluating contradiction learning models on downstream applications of KGRL (KG Representation Learning) on several ML tasks, e.g. Knowledge Graph Completion, Question-Answering, Link Prediction, etc.
 
 
 
