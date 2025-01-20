@@ -38,13 +38,14 @@ Here contradictions are defined as two logically opposing statements for a commo
 | (B(a,d)) ⊓ (B(a,e)) ⊓ Cards(a,d,B) = (0,1) | Portugal hasCapital Lisbon <br /> Portugal hasCapital Funchal <br /> hasCapital maxCardinality 1 |
 
 
-
+<p align="justify">
 These contradictions can be directly ( see example on row 1 of table above ) or indirectly logically detectable ( examples on rows 2 to 5 ). On the other hand, not all contradictions can be detected through logics alone.
 For example, two statements may not contradict eachother within general knowledge but may be contradicting within a specific domain. On the other hand, there are "supposed" contradictions that, when given context (be it temporal, spatial, etc.) may not be contradicting. Therefore, the task of detecting contradictions is complex.
 
 As seen in examples 1 to 3 of the Table above, the existence of both positive and negative statements can also result in contradictions as long as they are mutual negations (either direct or through logical inference).
 Therefore, I also include datasets with negative statements in Section 2.
 In cases where two datasets, one with exclusively positive statements and another with exclusively negative statements for common entities, contain data from the same domain, e.g. ConceptNet and Uncommonsense, it is possible to combine them into a single KG from which to derive the contradictions.
+</p>
 <br />
 
 ## Section 2 - Datasets
